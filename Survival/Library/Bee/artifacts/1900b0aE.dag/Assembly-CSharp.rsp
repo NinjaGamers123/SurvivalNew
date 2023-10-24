@@ -1,0 +1,655 @@
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
+-define:UNITY_2021_3_29
+-define:UNITY_2021_3
+-define:UNITY_2021
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:NET_STANDARD_2_1
+-define:NETSTANDARD
+-define:NETSTANDARD2_1
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:INVECTOR_BASIC
+-define:INVECTOR_MELEE
+-define:INVECTOR_SHOOTER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"D:/Unity Projects/Survival-Game/Survival/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"D:/Unity Projects/Survival-Game/Survival/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/HealthItem/vAnimateUV.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Camera/CullingFadeControl/vCullingFadeControl.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Camera/vThirdPersonCamera.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Camera/vThirdPersonCameraExtensions.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Camera/vThirdPersonCameraListData.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Camera/vThirdPersonCameraState.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/Actions/vActionListener.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/Actions/vGenericAction.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/Actions/vGenericActionReceiver.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/Actions/vGenericAnimation.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/Actions/vLadderAction.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/Actions/vTriggerActionEvent.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/Actions/vTriggerGenericAction.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/Actions/vTriggerLadderAction.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vAnimatorParameter.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vAnimatorStateInfo.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vCharacter.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vGameController.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vHUDController.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vICharacter.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vInput.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vOnDeadTrigger.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vThirdPersonAnimator.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vThirdPersonController.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vThirdPersonInput.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/CharacterController/vThirdPersonMotor.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Scripts/vAudioSurface.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Scripts/vAudioSurfaceControl.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Scripts/vFisherYatesRandom.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Scripts/vFootPlantingPlayer.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Scripts/vFootStep.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Scripts/vFootStepHandler.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Scripts/vFootStepTrigger.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorEvent.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorEventReceiver.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorIncreaseDecreaseValue.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorResetTrigger.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorSetBool.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorSetFloat.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorSetInt.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorSetTrigger.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorSetValue.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorTag.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorTagAdvanced.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorTagBase.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vAnimatorTagByParamenter.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vBasicAnimatorTags.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Animator/vTriggerSoundByState.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vBarDisplayAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vButtonAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vCheckPropertyAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vClassHeaderAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vEditorToolbarAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vHelpBoxAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vHideInInspectorAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vMinMaxAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vReadOnlyAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vSeparator.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Attributes/vToggleOptionAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/BodySnapSystem/Scripts/vBodySnappingControl.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/BodySnapSystem/Scripts/vBodyStruct.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/BodySnapSystem/Scripts/vSnapToBody.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Health/vDamageModifier.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Health/vDamageModifierController.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Health/vHealthController.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Health/vHealthItem.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Health/vIDamageReceiver.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Health/vIHealthController.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Health/v_SpriteHealth.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Interactables/vPendulum.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Interactables/vPickupItem.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Interactables/vPlatform.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Interactables/vPunchingBag.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Interactables/vSimpleDoor.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vChangeCameraAngleTrigger.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vChangeInputTypeTrigger.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vCheckpointExample.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vDestroyOnTrigger.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vFindSpawnPoint.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vJumpMultiplierTrigger.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vLoadLevel.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vLoadLevelHelper.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vSimpleTrigger.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vSimpleTriggerWithInput.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vTriggerChangeCameraState.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Triggers/vTutorialTextTrigger.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/ShowHideSlideControl.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vChangeAnimatorUpdateMode.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vCharacterExtensions.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vComment.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vDestroyChildrens.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vDestroyGameObject.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vEnableDisableEvent.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vEnableRandomObject.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vEntityPreview.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vEventWithDelay.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vExtensions.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vFadeCanvas.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vFrameLimiter.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vHitDamageParticle.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vImageColorChange.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vInstantiate.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vLookAtCamera.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vMessageReceiver.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vMessageSender.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vMonoBehaviour.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vMousePositionHandler.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vMultToggleEvent.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vObjectContainer.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vParticleEmissionByVelocity.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vPingPongRotation.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vPlayRandomClip.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vRandomFloat.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vRemoveParent.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vResetTransform.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vRotateObject.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vRotateToTarget.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vScaleControl.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vSelectableStringAttribute.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vSetAnimatorLayerWeight.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vSetAnimatorValue.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vSetParent.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vSetParentOfController.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vSetTransform.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vSkyboxFade.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vSliderSizeControl.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vTagMask.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vTargetLookAt.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vTeleport.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vTimerCounter.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vUIIndicatorPosition.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/vUpdateUIPosition.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/vDebugUtils.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/vEnableDisableByInputDevice.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/HeadTrack/Scripts/vHeadTrack.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/HeadTrack/Scripts/vHeadTrackSensor.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/HeadTrack/Scripts/vLookTarget.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/IK/vArmAimAlign.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/IK/vIKSolver.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/ObjectDamage/vDamage.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/ObjectDamage/vObjectDamage.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/ObjectDamage/vSpike/vSpike.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/ObjectDamage/vSpike/vSpikeControl.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Ragdoll/vDamageReceiver.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Ragdoll/vIRagdollListener.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Ragdoll/vRagdoll.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Ragdoll/vRagdollCollision.cs"
+"Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Ragdoll/vRagdollGenericTemplate.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/UseItemEventTrigger.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/vAddItemByID.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/vCheckCanAddHealth.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/vCheckItemInInventory.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/vCheckItemIsEquipped.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/vCheckItemsInInventory.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/vContainsItemTrigger.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/vLoadInventoryItemsExample.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/vRemoveCurrentItem.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/vRemoveItem.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/Examples/vSaveLoadInventory.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vAutoScrollVertical.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vControlAreaByInput.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vDrawHideMeleeWeapons.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vEquipArea.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vEquipAreaControl.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vEquipItemToArea.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vEquipment.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vEquipmentDisplay.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vEquipmentReferenceControl.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vEquipProperties.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vEquipSlot.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vGridLayoutExpand.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vHandler.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vIEquipment.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vInventory.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItem.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemAmountWindow.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemAttribute.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemAttributes.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemCollection.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemCollectionDisplay.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemCollectionDisplay_v2.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemCollectionTextHUD.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemDisplay.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemDisplay3D.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemEnumsBuilder/vInventoryDisplayFormat.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemEnumsBuilder/vItemEnums.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemEnumsBuilder/vItemEnumsList.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemFilter.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemListData.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemListOperations.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemManager.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemManagerEvents.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemOptionWindow.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemSlot.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemWindow.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vItemWindowDisplay.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vJoystickMouseInput.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vLeaveDropItemExample.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vLockSelectable.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vMasterWindow.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vOpenCloseInventoryTrigger.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vSetFirstSelectable.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vSimpleInput.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vToolbarButton.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vToolbarSelector.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vUnequipItemToArea.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vWeaponHolder.cs"
+"Assets/Invector-3rdPersonController/ItemManager/Scripts/vWeaponHolderManager.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/Vases/Script/vBreakableObject.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/Vases/Script/vDestroyOnSleep.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/CharacterController/vBlockUnarmedAttack.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/CharacterController/vMeleeCombatInput.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/Generic/vMeleeAnimatorTags.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/LockOn/vLockOn.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/LockOn/vLockOnBehaviour.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/DualSwordExample.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vCollectableStandalone.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vCollectMeleeControl.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vControlDisplayWeaponStandalone.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vDisplayWeaponStandalone.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vEnumFlagAttribute.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vHitBox.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vHitEffects.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vIAttackListener.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vIAttackReceiver.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vIMeleeFighter.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vMeleeAttackControl.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vMeleeAttackObject.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vMeleeEquipment.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vMeleeManager.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vMeleeWeapon.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vRandomAttackBehaviour.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/MeleeWeapon/vWeaponConstrain.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/WaypointSystem/vPoint.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/WaypointSystem/vWaypoint.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Scripts/WaypointSystem/vWaypointArea.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Simple Melee AI/Scripts/vSimpleMeleeAI_Animator.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Simple Melee AI/Scripts/vSimpleMeleeAI_Companion.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Simple Melee AI/Scripts/vSimpleMeleeAI_Controller.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Simple Melee AI/Scripts/vSimpleMeleeAI_Motor.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Simple Melee AI/Scripts/vSimpleMeleeAI_SphereSensor.cs"
+"Assets/Invector-3rdPersonController/Melee Combat/Simple Melee AI/Scripts/vSimpleMeleeAI_WeaponsControl.cs"
+"Assets/Invector-3rdPersonController/Shooter/3DModels/Weapons/vRifle/Scripts/vBotRifleAnimationControl.cs"
+"Assets/Invector-3rdPersonController/Shooter/3DModels/Weapons/vRifle/Scripts/vPowerChargeProjectileControl.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/ArcherySystem/Scripts/vArrow.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/ArcherySystem/Scripts/vBowControl.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/Scripts/vDecalManager.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Generic/vAimCanvas.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Generic/vBarrel.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Generic/vControlAimCanvas.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Generic/vExplosive.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Generic/vShooterAnimatorTags.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/ImpactEffect/Scripts/CustomImpactEffects/vCustomImpactEffectSample.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/ImpactEffect/Scripts/vImpactEffect.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/ImpactEffect/Scripts/vImpactEffectBase.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Shooter/vAmmoListData.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Shooter/vAmmoManager.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Shooter/vDamageReceiver.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Shooter/vLockOnShooter.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Shooter/vShooterManager.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Shooter/vShooterMeleeInput.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/SimpleIK/vIShooterIKController.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/SimpleIK/vSetWeaponIKSettings.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/SimpleIK/vWeaponIKAdjust.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/SimpleIK/vWeaponIKAdjustHelper.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/SimpleIK/vWeaponIKAdjustList.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/ThrowSystem/Scripts/vThrowCollectable.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/ThrowSystem/Scripts/vThrowManager.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/ThrowSystem/Scripts/vThrowUI.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vAmmoDisplay.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vAmmoDisplayImage.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vAmmoStandalone.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vBulletLifeSettings.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vCollectShooterMeleeControl.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vDrawHideShooterWeapons.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vLaserSight.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vProjectileControl.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vProjectileInstantiateData.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vShooterEquipment.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vShooterWeapon.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vShooterWeaponBase.cs"
+"Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/vWeaponCollectableControl.cs"
+"Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Scripts/vDisplayValueFade.cs"
+"Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Scripts/vScoreDataDisplay.cs"
+"Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Scripts/vScorePointDisplay.cs"
+"Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Scripts/vSendScore.cs"
+"Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Scripts/vShooterScore.cs"
+"Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Scripts/vShooterTrainingController.cs"
+-langversion:9.0
+
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+
+
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.AdditionalFile.txt"
