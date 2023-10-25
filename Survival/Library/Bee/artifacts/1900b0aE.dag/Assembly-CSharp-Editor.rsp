@@ -112,6 +112,8 @@
 -define:INVECTOR_BASIC
 -define:INVECTOR_MELEE
 -define:INVECTOR_SHOOTER
+-define:CROSS_PLATFORM_INPUT
+-define:EMERALD_AI_PRESENT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -337,6 +339,7 @@
 -r:"D:/Unity Projects/SurvivalNew/Survival/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"D:/Unity Projects/SurvivalNew/Survival/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"D:/Unity Projects/SurvivalNew/Survival/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
@@ -364,6 +367,20 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Blink/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs"
+"Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs"
+"Assets/Emerald AI/Scripts/Editor/AnimationProfileExporter.cs"
+"Assets/Emerald AI/Scripts/Editor/CustomEditorProperties.cs"
+"Assets/Emerald AI/Scripts/Editor/EmeraldAIAbilityEditor.cs"
+"Assets/Emerald AI/Scripts/Editor/EmeraldAIAnimatorGenerator.cs"
+"Assets/Emerald AI/Scripts/Editor/EmeraldAICombatTextManager.cs"
+"Assets/Emerald AI/Scripts/Editor/EmeraldAIDefine.cs"
+"Assets/Emerald AI/Scripts/Editor/EmeraldAIEditor.cs"
+"Assets/Emerald AI/Scripts/Editor/EmeraldAIFactionManager.cs"
+"Assets/Emerald AI/Scripts/Editor/EmeraldAINeedsSystemEditor.cs"
+"Assets/Emerald AI/Scripts/Editor/EmeraldAISetupManager.cs"
+"Assets/Emerald AI/Scripts/Editor/LocationBasedDamageEditor.cs"
+"Assets/Emerald AI/Scripts/Player/Editor/PlayerWeaponEditor.cs"
+"Assets/Emerald AI/Scripts/Player/Editor/PlayerWeaponEditor3rdPerson.cs"
 "Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Camera/CullingFadeControl/Editor/vCullingFadeControlEditor.cs"
 "Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Camera/Editor/vScriptableObjectUtility.cs"
 "Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Camera/Editor/vThirdPersonCameraEditor.cs"
