@@ -67,7 +67,7 @@ MonoBehaviour:
   - Name: Aiming
     forward: -1
     right: 0.3
-    defaultDistance: 1.5
+    defaultDistance: 2.09
     maxDistance: 1.5
     minDistance: 0.25
     height: 1.7
@@ -113,7 +113,7 @@ MonoBehaviour:
   - Name: Strafing
     forward: -1
     right: 0.25
-    defaultDistance: 1.26
+    defaultDistance: 2.09
     maxDistance: 3
     minDistance: 0.5
     height: 1.62

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638337681276843099
-    m_Hash: 3681573651
+      ticks: 638341130051265853
+    m_Hash: 1294120794
   m_LockFileStatus:
     m_FilePath: D:/Unity Projects/SurvivalNew/Survival/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638337682333572973
-    m_Hash: 2237909257
+      ticks: 638341130061885151
+    m_Hash: 457790204
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -215,7 +215,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.24
+    version: 3.0.26
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -248,12 +248,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.24
+- packageId: com.unity.ide.rider@3.0.26
   testable: 0
   isDirectDependency: 1
-  version: 3.0.24
+  version: 3.0.26
   source: 1
-  resolvedPath: D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.ide.rider@3.0.24
+  resolvedPath: D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.ide.rider@3.0.26
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -332,13 +332,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638221653400000000
+  datePublishedTicks: 638326061920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: f5decc642e3618ce1c6827d47318260e61d64714
+    revision: 2b29b1152946c13d1ecebf6fc681a59cd8b4d399
     path: 
   unityLifecycle:
     version: 3.0.24

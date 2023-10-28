@@ -366,7 +366,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Blink/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs"
 "Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs"
 "Assets/Emerald AI/Scripts/Editor/AnimationProfileExporter.cs"
 "Assets/Emerald AI/Scripts/Editor/CustomEditorProperties.cs"
@@ -459,6 +458,7 @@
 "Assets/Invector-3rdPersonController/Shooter/Scripts/Shooter/Editor/vShooterMenuComponent.cs"
 "Assets/Invector-3rdPersonController/Shooter/Scripts/Shooter/Editor/vWeaponIKAdjustEditor.cs"
 "Assets/Invector-3rdPersonController/Shooter/Scripts/Weapon/Editor/vCreateShooterWeaponEditor.cs"
+"Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/Editor/PT_Create_Prefab_Editor.cs"
 -langversion:9.0
 
 /deterministic

@@ -15,7 +15,7 @@ D:/Unity Projects/SurvivalNew/Survival
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-60991
+63643
 Successfully changed project path to: D:/Unity Projects/SurvivalNew/Survival
 D:/Unity Projects/SurvivalNew/Survival
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Unity Projects/SurvivalNew/Survival
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1504] Host "[IP] 192.168.10.3 [Port] 0 [Flags] 2 [Guid] 269831659 [EditorId] 269831659 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TNSSAC2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11992] Host "[IP] 192.168.10.3 [Port] 0 [Flags] 2 [Guid] 673631068 [EditorId] 673631068 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TNSSAC2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1504] Host "[IP] 192.168.10.3 [Port] 0 [Flags] 2 [Guid] 269831659 [EditorId] 269831659 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TNSSAC2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11992] Host "[IP] 192.168.10.3 [Port] 0 [Flags] 2 [Guid] 673631068 [EditorId] 673631068 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TNSSAC2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 91.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -67,78 +67,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007518 seconds.
+Registered in 0.006733 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 229 ms
-Refreshing native plugins compatible for Editor in 93.85 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 231 ms
+Refreshing native plugins compatible for Editor in 85.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.882 seconds
+- Completed reload, in  0.829 seconds
 Domain Reload Profiling:
-	ReloadAssembly (883ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (829ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (709ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (669ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (541ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (514ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (321ms)
+				InitializePlatformSupportModulesInManaged (310ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
+				RefreshPlugins (86ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (88ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002801 seconds.
+Registered in 0.003426 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
+- Completed reload, in  1.104 seconds
 Domain Reload Profiling:
-	ReloadAssembly (999ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (1105ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (812ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (893ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
+			SetupTypeCache (249ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (448ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (486ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (340ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (365ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
@@ -150,10 +150,10 @@ Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3446 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (47.7 KB). Loaded Objects now: 3919.
-Memory consumption went from 130.5 MB to 130.4 MB.
-Total: 2.962200 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.091700 ms MarkObjects: 2.427200 ms  DeleteObjects: 0.097100 ms)
+Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (47.7 KB). Loaded Objects now: 4011.
+Memory consumption went from 152.3 MB to 152.3 MB.
+Total: 2.699600 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.097200 ms MarkObjects: 2.200400 ms  DeleteObjects: 0.089400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,109 +167,807 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 203492.860681 seconds.
+  path: Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/potionStamina.001.mat
+  artifactKey: Guid(463557700de24204f975e2f5cbaf3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/potionStamina.001.mat using Guid(463557700de24204f975e2f5cbaf3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b877ddd003d7922f011b0ef2b367ee0') in 0.412953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/SimpleDoor/Materials/Frame_Orange.mat
+  artifactKey: Guid(21dc0c5c4f093d241af246210bd01c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/SimpleDoor/Materials/Frame_Orange.mat using Guid(21dc0c5c4f093d241af246210bd01c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8ea440c50ffbb9f709546830e1bd1c') in 0.657117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/proto_mobile 1.mat
+  artifactKey: Guid(dbae1e62cb3d1f7469b9a315a759550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/proto_mobile 1.mat using Guid(dbae1e62cb3d1f7469b9a315a759550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7682e0d82b5bbd0f3aa6a1211da2a0f3') in 0.327575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Scripts/ArcherySystem/Animations/Materials/chrome.mat
+  artifactKey: Guid(277812c0af1657044982f514815474b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Scripts/ArcherySystem/Animations/Materials/chrome.mat using Guid(277812c0af1657044982f514815474b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89724bbf38d2fa0e189285f64e559940') in 0.011824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/HUD/guide-texts/Materials/50.mat
+  artifactKey: Guid(57928c61a9fa660488b68a6aeb2b26d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/HUD/guide-texts/Materials/50.mat using Guid(57928c61a9fa660488b68a6aeb2b26d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7d499cbc725d21d1351d090293f66c') in 0.598402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials/base-2.mat
+  artifactKey: Guid(7d8642d91e43fa94a9d7f13346d31d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials/base-2.mat using Guid(7d8642d91e43fa94a9d7f13346d31d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f2e8adfd662b4c2eed3dac827397b3') in 0.298275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/BulletEffect/Resources/materials/WoodBits.mat
+  artifactKey: Guid(901c53f5a7bf1ec45a6277d139dd3e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/BulletEffect/Resources/materials/WoodBits.mat using Guid(901c53f5a7bf1ec45a6277d139dd3e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef800643554928f05e1450ea224c5e8') in 0.011659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials/V-bot-red.mat
+  artifactKey: Guid(2adddb9fd0a7aff4ebbdd3b34dc2eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials/V-bot-red.mat using Guid(2adddb9fd0a7aff4ebbdd3b34dc2eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f468bc37b3235c70f295b53a9ef37dd0') in 0.683144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Generic_Tree_Trunk_mat.mat
+  artifactKey: Guid(e6ce4253a748b0849a04b87f33cc539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Generic_Tree_Trunk_mat.mat using Guid(e6ce4253a748b0849a04b87f33cc539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4bf3e631701234ec8c9fc621e737af') in 0.366886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/Wires/Materials/Buildings/alphas_2-sided.mat
+  artifactKey: Guid(263e9009e150b9d47b1dd390ffae817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/Wires/Materials/Buildings/alphas_2-sided.mat using Guid(263e9009e150b9d47b1dd390ffae817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bbe3555dc5264d0ff6028026c010d8') in 0.430124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Textures/VbotBlackShooterEdition/BlackShooterEdition/Rubber.mat
+  artifactKey: Guid(08f92fb4bee6e6740aeed128f64eec90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Textures/VbotBlackShooterEdition/BlackShooterEdition/Rubber.mat using Guid(08f92fb4bee6e6740aeed128f64eec90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8802ff39e544f672e890700ee606fe') in 0.019706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Animations/MadMikeMoose/MadMikeMoose_Run.fbx
+  artifactKey: Guid(166608139849cc64396724de812642d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Animations/MadMikeMoose/MadMikeMoose_Run.fbx using Guid(166608139849cc64396724de812642d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7ee7cd5a6886fcef394f92e57f8400') in 0.107398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Animations/MadMikeMoose/Materials/Moose_Albedo.mat
+  artifactKey: Guid(c4a69a238135f44438d7a1ddbacea744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Animations/MadMikeMoose/Materials/Moose_Albedo.mat using Guid(c4a69a238135f44438d7a1ddbacea744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b669fe795da2f2cd776caf6dd3fea975') in 0.898518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Scripts/ArcherySystem/Animations/Materials/rubber.mat
+  artifactKey: Guid(8219b4e5fe0d50d469b64f44c7e41694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Scripts/ArcherySystem/Animations/Materials/rubber.mat using Guid(8219b4e5fe0d50d469b64f44c7e41694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d74fbd29c27ecb3a7815ff5503dd799') in 0.010655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/SimpleDoor/Materials/Frame_Blue.mat
+  artifactKey: Guid(1e63513d771f55247917c9878eff05fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/SimpleDoor/Materials/Frame_Blue.mat using Guid(1e63513d771f55247917c9878eff05fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4901bb2bde47bdd963242653ac77591') in 0.467188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Materials/Rail2.mat
+  artifactKey: Guid(50660c1f0c7bc0748b6a559b71870303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Materials/Rail2.mat using Guid(50660c1f0c7bc0748b6a559b71870303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdc48a34841e04428ac7a1a65148482') in 3.852118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Emerald AI/Textures_Materials/Materials/Dust Impact.mat
+  artifactKey: Guid(c46989886b084cb4fb78415be255bbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Textures_Materials/Materials/Dust Impact.mat using Guid(c46989886b084cb4fb78415be255bbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861a8ebb4b5d639f1829698e6acd0c98') in 2.025468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/proto_gray.mat
+  artifactKey: Guid(23b270fd728652740aff62aef34e0081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/proto_gray.mat using Guid(23b270fd728652740aff62aef34e0081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012f9fdae3d7aa9d20f535886e4cf85f') in 0.415699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free medieval weapons/Materials/DoubleSided_Axes_low_Axes_DS_AlbedoTransparency.mat
+  artifactKey: Guid(fea5362e1b265c54b9073c4b17ff9dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free medieval weapons/Materials/DoubleSided_Axes_low_Axes_DS_AlbedoTransparency.mat using Guid(fea5362e1b265c54b9073c4b17ff9dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76177354ff589e89d9fcdcbfa6201cf1') in 2.244648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Weapons/vWeaponsNew/mesh/Materials/weaponMaterial2.mat
+  artifactKey: Guid(738736f6ade870648957ea31fd538a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Weapons/vWeaponsNew/mesh/Materials/weaponMaterial2.mat using Guid(738736f6ade870648957ea31fd538a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32add9852b1e889711dff0c6157608c') in 0.013832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Materials/ShooterTraining_Shield.mat
+  artifactKey: Guid(766f6a39322947a4e8fad8d21f39dda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Materials/ShooterTraining_Shield.mat using Guid(766f6a39322947a4e8fad8d21f39dda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50a133090189177c85a0e101d877085') in 2.073513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/carbon.mat
+  artifactKey: Guid(50ac9aaf650337544b871e557fa095ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/carbon.mat using Guid(50ac9aaf650337544b871e557fa095ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20dd58eecee728330100dcc5906fd73e') in 0.673632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Emerald AI/Fonts/AireExterior.ttf
+  artifactKey: Guid(566044d185fac124893f1dc0d4262716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Fonts/AireExterior.ttf using Guid(566044d185fac124893f1dc0d4262716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cde8659361b880724359aba7161c7df') in 1.080436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Emerald AI/Textures_Materials/Textures/Examples/Materials/Position.mat
+  artifactKey: Guid(6b5373c9c06e7ec4580e2d21b4699325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Textures_Materials/Textures/Examples/Materials/Position.mat using Guid(6b5373c9c06e7ec4580e2d21b4699325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8250264190deedc6989359d06dc53e46') in 0.160957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/ladder_Metal.mat
+  artifactKey: Guid(2e23f77229be3224dbd1cd73d77ab2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/ladder_Metal.mat using Guid(2e23f77229be3224dbd1cd73d77ab2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1320b6b3b093d84b3eff1e506e9ce53') in 2.384807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Members_Metal.mat
+  artifactKey: Guid(c90f59755f1461b4483f9f225b77813c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Members_Metal.mat using Guid(c90f59755f1461b4483f9f225b77813c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a47e31db0aee9e0d805f588b5896092') in 0.256201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/BulletEffect/Resources/materials/GlassSpray.mat
+  artifactKey: Guid(0af6b2dc0b0fd4e4f86513f51bc88d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/BulletEffect/Resources/materials/GlassSpray.mat using Guid(0af6b2dc0b0fd4e4f86513f51bc88d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05280df3bf00b7b1cedb7e4317b44b7') in 0.021519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Animations/MadMikeMoose/MadMikeMoose_Hit.fbx
+  artifactKey: Guid(3d9193be8491d364ea35e1c0c0c4ecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Animations/MadMikeMoose/MadMikeMoose_Hit.fbx using Guid(3d9193be8491d364ea35e1c0c0c4ecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddf194cf031dafede4f3fdc563ae563') in 0.461139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/mobile_cube.mat
+  artifactKey: Guid(3805243f7383ee740acbc079d3c7b38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/mobile_cube.mat using Guid(3805243f7383ee740acbc079d3c7b38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5803bdcdfd8a990948444c3512e11a') in 0.052398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Textures/VbotBlackShooterEdition/BlackShooterEdition/Joints_Outside.mat
+  artifactKey: Guid(8ca50cac971f92b4fa234e0b48ccc432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Textures/VbotBlackShooterEdition/BlackShooterEdition/Joints_Outside.mat using Guid(8ca50cac971f92b4fa234e0b48ccc432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15736b022636bea10c64ff6615caa7a') in 0.016467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Resources/Shared/Environment/Materials/MetalTrim.mat
+  artifactKey: Guid(e0f11b1a7337400468c12894fc7c4cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Resources/Shared/Environment/Materials/MetalTrim.mat using Guid(e0f11b1a7337400468c12894fc7c4cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b4f91ae2aef954b4e4cd7580876b11') in 0.137609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Grass_Mat.mat
+  artifactKey: Guid(09473d06882d1414b84b1fdb7a095516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Grass_Mat.mat using Guid(09473d06882d1414b84b1fdb7a095516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53060b0a980b7ad5d0a518c8dc49890b') in 0.371969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Invector-3rdPersonController/ItemManager/Icons/Materials/remove_icon.mat
+  artifactKey: Guid(9e97d430cf89a4c499333682e01b4fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/ItemManager/Icons/Materials/remove_icon.mat using Guid(9e97d430cf89a4c499333682e01b4fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c94b9496ddc2363a1d19ddd6d3069f') in 0.190281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Emerald AI/Textures_Materials/Materials/Blood 1.mat
+  artifactKey: Guid(5ed17fd956a420a4e91691c44da3c11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Textures_Materials/Materials/Blood 1.mat using Guid(5ed17fd956a420a4e91691c44da3c11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd667599cde10778b9f1660a89d5269c4') in 0.092034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MeshSmith/ToonMonsterII/Toon Mouse Spear/Mesh/Materials/kobold_elite.mat
+  artifactKey: Guid(ede49bdacb019464789e70d9629ef58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MeshSmith/ToonMonsterII/Toon Mouse Spear/Mesh/Materials/kobold_elite.mat using Guid(ede49bdacb019464789e70d9629ef58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a25d54e0cdfa5eee85afbed98a6076') in 0.208311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Resources/Shared/Environment/Materials/MetalRailing.mat
+  artifactKey: Guid(50d6c6916e743b64c8b4e4282f2c9603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Resources/Shared/Environment/Materials/MetalRailing.mat using Guid(50d6c6916e743b64c8b4e4282f2c9603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b622cff3c1f575dbdf11a6036f7a1f6f') in 0.038057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/HUD/guide-texts/Materials/crouch.mat
+  artifactKey: Guid(f26ab3497b622db4f8bda2446e5e7e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/HUD/guide-texts/Materials/crouch.mat using Guid(f26ab3497b622db4f8bda2446e5e7e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca6303a36fad349dab6c44be49f1fb5') in 2.238962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/transp.001.mat
+  artifactKey: Guid(a739230fc3597ac4794e42287ea59e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/transp.001.mat using Guid(a739230fc3597ac4794e42287ea59e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f87459c285f27c959e6070170328711') in 0.326280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Weapons/vRifle/Materials/vRifle_Difuse.mat
+  artifactKey: Guid(d6db4900bc78ba34387f6046ff1f475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Weapons/vRifle/Materials/vRifle_Difuse.mat using Guid(d6db4900bc78ba34387f6046ff1f475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e6251734594c077475ffd541413d7c') in 1.351498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/RainEntertainment/FantasyMonster2/Elf Mage Pack/Mesh/Materials/MOC_VelluaMagician_A_DIFF.mat
+  artifactKey: Guid(c38297708c5bb6140ae3db06b764f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/RainEntertainment/FantasyMonster2/Elf Mage Pack/Mesh/Materials/MOC_VelluaMagician_A_DIFF.mat using Guid(c38297708c5bb6140ae3db06b764f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbea0334a8f127e5479361016275d2e') in 1.545955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials@custom/chrome@custom.mat
+  artifactKey: Guid(936aae22a565c77448c1b1a9f6928b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials@custom/chrome@custom.mat using Guid(936aae22a565c77448c1b1a9f6928b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ae3f75ef896f48e0205818cdc11dfd') in 0.162085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/SurfacesTextures/Brick/Materials/brick_COLOR.mat
+  artifactKey: Guid(82e803d7897a64947bd4876e0abc80aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/SurfacesTextures/Brick/Materials/brick_COLOR.mat using Guid(82e803d7897a64947bd4876e0abc80aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd0934af94a7f89bc6fe63a4905d66b') in 4.659883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Texture/Terrain/Materials/GrassTuftyPlants_Albedo.mat
+  artifactKey: Guid(2197d8d79b5c53c45b3f34a6696585e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Texture/Terrain/Materials/GrassTuftyPlants_Albedo.mat using Guid(2197d8d79b5c53c45b3f34a6696585e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff26141deaa543e76882486c80861c25') in 0.527147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/red_cube.mat
+  artifactKey: Guid(a9506c0f53e9e8b42ad76e32ff4e305b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/red_cube.mat using Guid(a9506c0f53e9e8b42ad76e32ff4e305b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd350e7457dae27c418efbc62958c4b') in 0.538241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Peasants_Free_Asset/Prefabs/Skybox.mat
+  artifactKey: Guid(a645f793536a4674b920d2aa358beb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Peasants_Free_Asset/Prefabs/Skybox.mat using Guid(a645f793536a4674b920d2aa358beb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f433502bc0e736511b2bfce62b00d992') in 0.023410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/Invector-Chest-02.mat
+  artifactKey: Guid(9b8c2cd4d243f124a8f219611c9d9266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/Invector-Chest-02.mat using Guid(9b8c2cd4d243f124a8f219611c9d9266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3410ec43aa6f7606da4368a5960fb10d') in 0.048851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Emerald AI/Fonts/GenR102.TTF
+  artifactKey: Guid(423792ed2f2243b44afc9cdb7943996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Fonts/GenR102.TTF using Guid(423792ed2f2243b44afc9cdb7943996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe106ff6e0b783de6662a0ca1981dc8') in 0.074936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Body.mat
+  artifactKey: Guid(95fcf9331ca635c459a201f2c56f44dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Body.mat using Guid(95fcf9331ca635c459a201f2c56f44dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e574e74e85fc9423850abb006874bb') in 0.020788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/V.mat
+  artifactKey: Guid(df6e3b8b89f6ab04086bb67157f8e06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/V.mat using Guid(df6e3b8b89f6ab04086bb67157f8e06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9ae176f5849b1844f505e0eeec792a') in 1.301447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/SimpleDoor/Materials/Door_Blue.mat
+  artifactKey: Guid(db2c88db9560a1743ba55608c16eab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/SimpleDoor/Materials/Door_Blue.mat using Guid(db2c88db9560a1743ba55608c16eab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75de2cc3e2bd64f6e24bd941bcabaf2e') in 0.034323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Textures/VbotBlackShooterEdition/BlackShooterEdition/Members_Plastic.mat
+  artifactKey: Guid(4a2bfe4818aecfe48bc7585647db7c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Textures/VbotBlackShooterEdition/BlackShooterEdition/Members_Plastic.mat using Guid(4a2bfe4818aecfe48bc7585647db7c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e943b9506b469518125a2c12f6e186fa') in 0.031328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Hair.mat
+  artifactKey: Guid(0ec77e506658168428e174ef6ddb4abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Hair.mat using Guid(0ec77e506658168428e174ef6ddb4abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917b3eadda5032f06eff056cec9a4fff') in 0.017429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/vpoison-old.mat
+  artifactKey: Guid(d172aca82f7dd4a4f94d8ab0f12ce82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/vpoison-old.mat using Guid(d172aca82f7dd4a4f94d8ab0f12ce82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04031241d7ee1e54416219226e1c1dd7') in 0.012089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Props/vBarrel/3DModel/Materials/vBarrel_Difuse1.mat
+  artifactKey: Guid(da5a8467168dc7845a0c36d0ff6a05bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Props/vBarrel/3DModel/Materials/vBarrel_Difuse1.mat using Guid(da5a8467168dc7845a0c36d0ff6a05bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0787184dd0a4ae55ef257108ebd59ec') in 0.482038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Emerald AI/Demo Source/Textures_Materials/Materials/Interact Material.mat
+  artifactKey: Guid(f6c20436905c5b948bf80fe4ff8f3bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/Textures_Materials/Materials/Interact Material.mat using Guid(f6c20436905c5b948bf80fe4ff8f3bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35abbe5a9a52322f9490c689360eed9b') in 0.285766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Material/Characters/MikeMoose.mat
+  artifactKey: Guid(ae885af43698f344b8b3e2f40d824378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Material/Characters/MikeMoose.mat using Guid(ae885af43698f344b8b3e2f40d824378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cc053da9fdec71de1be71b941c34a7') in 1.668427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/Textures/vTexture/redDote.mat
+  artifactKey: Guid(2447387afca3a1747b476b37c7741e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/Textures/vTexture/redDote.mat using Guid(2447387afca3a1747b476b37c7741e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13405ac84344132b0c72aac9f2fe5d29') in 0.042840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/Resources/EntityPreview/LocationPreview.fbx
+  artifactKey: Guid(7cbea9d34df844f47a2214ce2a3072e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/Utils/Resources/EntityPreview/LocationPreview.fbx using Guid(7cbea9d34df844f47a2214ce2a3072e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6835746c036ac8a8d10abbb13af9766') in 0.049796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MeshSmith/ToonMonsterII/Toon Mouse Spear/Mesh/Materials/kobold_elite_med.mat
+  artifactKey: Guid(b47e4f498e5c059499eb0406e91ab221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MeshSmith/ToonMonsterII/Toon Mouse Spear/Mesh/Materials/kobold_elite_med.mat using Guid(b47e4f498e5c059499eb0406e91ab221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce57b1619a46668fe7325f23db7d63c') in 0.034236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Joints_Outside.mat
+  artifactKey: Guid(f51c03443b297bb4a85e94d7738c2bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Joints_Outside.mat using Guid(f51c03443b297bb4a85e94d7738c2bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4ed83e18043d9593f42b6c526200fc') in 0.076157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Resources/Shared/Environment/Materials/LinesWhite.mat
+  artifactKey: Guid(09d2711cb134c78409078c4645fae1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Resources/Shared/Environment/Materials/LinesWhite.mat using Guid(09d2711cb134c78409078c4645fae1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755f00f01452514e9fc4535f6f69bb2b') in 0.248977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Emerald AI/Fonts/BebasKai.ttf
+  artifactKey: Guid(0c8410ef0b8e41444a164fab302d35f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Fonts/BebasKai.ttf using Guid(0c8410ef0b8e41444a164fab302d35f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77bea4e7c3881af1206e56e6a1c014b') in 0.144851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Emerald AI/Demo Source/Textures_Materials/Textures/Examples/Materials/Position.mat
+  artifactKey: Guid(81aafc58edd5531448b9765d9cf94647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/Textures_Materials/Textures/Examples/Materials/Position.mat using Guid(81aafc58edd5531448b9765d9cf94647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a7fec63411bea8002c7aeba986cfc0') in 0.916186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Boy_Modular_Free_Pack.prefab
+  artifactKey: Guid(0da600d002dc6404693c3b74e0265a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Boy_Modular_Free_Pack.prefab using Guid(0da600d002dc6404693c3b74e0265a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f22972b4cf9d31fa4b3bac295052df') in 0.028587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/SceneElements/arrow-decal 1.mat
+  artifactKey: Guid(e1b79167355b1de4abd59d484b7ff867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/SceneElements/arrow-decal 1.mat using Guid(e1b79167355b1de4abd59d484b7ff867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03306ca11dc4101438cca255fef76d7d') in 0.039629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Emerald AI/Demo Source/Effects/Materials/FireParticle.mat
+  artifactKey: Guid(b5387d3c2ba98fc44a0f5744f94ce48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/Effects/Materials/FireParticle.mat using Guid(b5387d3c2ba98fc44a0f5744f94ce48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88640c8d4391420e9ef2d99285180626') in 2.546509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Emerald AI/Demo Source/Textures_Materials/Materials/Blood.mat
+  artifactKey: Guid(1a61e862992922e43835f925ea2fca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/Textures_Materials/Materials/Blood.mat using Guid(1a61e862992922e43835f925ea2fca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cda777703373c5f1250c089540814f') in 0.055365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MeshSmith/ToonMonsterII/Toon Demon/Mesh/Materials/fallen_guardian _ M.mat
+  artifactKey: Guid(3b6947ac83fc0ef41af73d8043d928d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MeshSmith/ToonMonsterII/Toon Demon/Mesh/Materials/fallen_guardian _ M.mat using Guid(3b6947ac83fc0ef41af73d8043d928d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345f60a805fab1a7ad53725bedf19701') in 0.642081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Emerald AI/Textures_Materials/Materials/Slash Effect 1.mat
+  artifactKey: Guid(90624bb8f039c744ab7211015e7c889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Textures_Materials/Materials/Slash Effect 1.mat using Guid(90624bb8f039c744ab7211015e7c889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9c756a885f6ff9855d4d884d49f697') in 1.682115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/Resources/Light red.mat
+  artifactKey: Guid(c74f90384bda2214da30b9fe70e73be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/Resources/Light red.mat using Guid(c74f90384bda2214da30b9fe70e73be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a087ee2dcb0ef6526ff40b59d8908b2') in 0.032597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Resources/Shared/Environment/Materials/ShadowCaster.mat
+  artifactKey: Guid(a7fc4133adf16c3409305f2ee9ed4ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Resources/Shared/Environment/Materials/ShadowCaster.mat using Guid(a7fc4133adf16c3409305f2ee9ed4ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675418934c0e3a26b9629e5c53ff0111') in 0.141027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Particles/Materials/fire.mat
+  artifactKey: Guid(d8603b41eb2844649b9e02a41d1e1ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Particles/Materials/fire.mat using Guid(d8603b41eb2844649b9e02a41d1e1ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1ea518cbce2ead02168c30bcc41fee') in 0.011944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Materials/Base.mat
+  artifactKey: Guid(fec442004fb8ffb489f47dba8bf445fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Materials/Base.mat using Guid(fec442004fb8ffb489f47dba8bf445fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e512dc427ed4d5c2248c1d81df612683') in 1.981132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/invector-icon-light-gray.mat
+  artifactKey: Guid(9ab2092d552a18c4e8d69676b61e9ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/invector-icon-light-gray.mat using Guid(9ab2092d552a18c4e8d69676b61e9ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb4c5c4cacbd229505ed4a2ea9e0086') in 0.083094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/vgrenades.mat
+  artifactKey: Guid(342a3bc0e5f9bbb46adcf919a5d07562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/vgrenades.mat using Guid(342a3bc0e5f9bbb46adcf919a5d07562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b0f5ff1a8710c4c4b0c97e63d222d5') in 0.732926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/BitGem/Skeleton_Swordsman/Models/Materials/sleleton_sw_d 2.mat
+  artifactKey: Guid(85c28fa9d78dad046a9b2f44f17ede1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/BitGem/Skeleton_Swordsman/Models/Materials/sleleton_sw_d 2.mat using Guid(85c28fa9d78dad046a9b2f44f17ede1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d54346c55780e4e23e7e2b3691e529') in 2.811998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/vMeleeWeapons/vAxe/Materials/Axe_Texture.mat
+  artifactKey: Guid(a8cb5274004d1234c84a615858085f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/vMeleeWeapons/vAxe/Materials/Axe_Texture.mat using Guid(a8cb5274004d1234c84a615858085f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a147755fa2c1141e2aee4f2a33e543') in 0.014338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Materials/ParticleSmokeVertlit 2.mat
+  artifactKey: Guid(082a5b83024b35042a596590c1dc503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Materials/ParticleSmokeVertlit 2.mat using Guid(082a5b83024b35042a596590c1dc503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070cbb447e8958efbf128da99e43cb78') in 0.010995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/BulletEffect/Resources/materials/MetalSparkBunch.mat
+  artifactKey: Guid(2d6de042e5219c44da7a60f8c653f655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/BulletEffect/Resources/materials/MetalSparkBunch.mat using Guid(2d6de042e5219c44da7a60f8c653f655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff5fdfd3d5d1edce65e1337b355107a') in 0.016480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/SurfacesTextures/wood_A/Materials/plank.mat
+  artifactKey: Guid(ecde927386aa31649a90f44ed86c6016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/SurfacesTextures/wood_A/Materials/plank.mat using Guid(ecde927386aa31649a90f44ed86c6016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661bb1fb990896b12ce2ab14e72fb808') in 0.671061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/potionHealth.001.mat
+  artifactKey: Guid(6ad0c12cca130ae4dac48dac8dd02425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/potionHealth.001.mat using Guid(6ad0c12cca130ae4dac48dac8dd02425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa33c20aa155cc7699e0b4da778d1ee') in 0.010771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Weapons/vRifle/Materials/vRifle_Grenade.mat
+  artifactKey: Guid(37e67ab8a89349a46b8c90f7e6e894c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Weapons/vRifle/Materials/vRifle_Grenade.mat using Guid(37e67ab8a89349a46b8c90f7e6e894c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d5cedcdc7ff6f258cbdea475f1a2f5') in 0.365919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/Vases/Materials/dustSplash.mat
+  artifactKey: Guid(b2dfa4e6afa779e449985e6f38ae184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/Vases/Materials/dustSplash.mat using Guid(b2dfa4e6afa779e449985e6f38ae184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691bea682286503940fb2ea2319821e7') in 1.064613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Armor.mat
+  artifactKey: Guid(22e7fb49e2b49e0418ef97b61b1c8db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Armor.mat using Guid(22e7fb49e2b49e0418ef97b61b1c8db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136b441d5f3435d1975b4f47c1275e68') in 0.303021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/blue_floor_Tiled.mat
+  artifactKey: Guid(b5318195f3001224f8d89ed125cd996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/blue_floor_Tiled.mat using Guid(b5318195f3001224f8d89ed125cd996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7fa17aa5a8bfe822ad767e735a7ca5') in 0.279377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Props/Sources/Materials/PT_Props_mat.mat
+  artifactKey: Guid(c681da389980e45469889866404b0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Props/Sources/Materials/PT_Props_mat.mat using Guid(c681da389980e45469889866404b0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f2eb924bc3e9c7f7d66a295e7f749c') in 0.011375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Particles/Materials/scope.mat
+  artifactKey: Guid(db72c2d5ee90cb74a93631822e36cd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Particles/Materials/scope.mat using Guid(db72c2d5ee90cb74a93631822e36cd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffacda16fa54037a3d94ad433f5ed70') in 0.011147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/potionHealth.000.mat
+  artifactKey: Guid(03ba3f92c30eb7146ae3d5b91e4a7fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/potionHealth.000.mat using Guid(03ba3f92c30eb7146ae3d5b91e4a7fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ab5e9375a54d1be94898802c11de16') in 0.011004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/BulletEffect/Resources/materials/GlassShard.mat
+  artifactKey: Guid(3c72a66863abd144794a67bdae5c4944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/BulletEffect/Resources/materials/GlassShard.mat using Guid(3c72a66863abd144794a67bdae5c4944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b69492d7e38d889a548382d46fb92c') in 0.009672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/VirtualShield/Material/virtualShield-01.mat
+  artifactKey: Guid(6aae78f96a85bbc4a94e45b920ab2615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/VirtualShield/Material/virtualShield-01.mat using Guid(6aae78f96a85bbc4a94e45b920ab2615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b6ce9def835f5f42b676f757d8dc7b') in 1.374344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Material/Characters/SeethroughBlue.mat
+  artifactKey: Guid(d21cf7c9161cbe5448242aeb6c184d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Material/Characters/SeethroughBlue.mat using Guid(d21cf7c9161cbe5448242aeb6c184d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e02f66b8033c7160a7d51900f27f09') in 0.151831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Scripts/ThrowSystem/UI/ThrowPreview.mat
+  artifactKey: Guid(d3d8df35a0ff43847bd699b518b13251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Scripts/ThrowSystem/UI/ThrowPreview.mat using Guid(d3d8df35a0ff43847bd699b518b13251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b18f27ddb70297a25caf48b383173c4') in 0.011854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Emerald AI/Scripts/Shaders/Font/coolvetica.ttf
+  artifactKey: Guid(43d0769837ddca341a5a83ef2cff1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Scripts/Shaders/Font/coolvetica.ttf using Guid(43d0769837ddca341a5a83ef2cff1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d305d73e7fc6b12069f029f25c56238') in 0.666528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Emerald AI/Demo Source/Textures_Materials/Materials/Hit Effect.mat
+  artifactKey: Guid(16aebb6a6d46a1a48ac238e2b93f211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/Textures_Materials/Materials/Hit Effect.mat using Guid(16aebb6a6d46a1a48ac238e2b93f211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564b75cc317f1e58a0fc1219a976a492') in 0.538402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Emerald AI/Textures_Materials/Materials/Target Indicator.mat
+  artifactKey: Guid(adb94f4b0cf599844a9706c3d673c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Textures_Materials/Materials/Target Indicator.mat using Guid(adb94f4b0cf599844a9706c3d673c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7ee796be06f489ead5378af588665b') in 1.496836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Emerald AI/Demo Source/Sword/Models/Player/Materials/Sword_Textures01.mat
+  artifactKey: Guid(9b5fcaf3ca5ccfd498a82199b347f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/Sword/Models/Player/Materials/Sword_Textures01.mat using Guid(9b5fcaf3ca5ccfd498a82199b347f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b988da5b4101231701b03ef17d8323') in 1.181029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/meleeCollectable.mat
+  artifactKey: Guid(40e9795dc02458941a4fce699e5f3b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/meleeCollectable.mat using Guid(40e9795dc02458941a4fce699e5f3b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cb204e54dc5952afd221cc3ee6966c') in 0.012846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Skybox.mat
+  artifactKey: Guid(d1385980456cd2044b282d73625457db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Skybox.mat using Guid(d1385980456cd2044b282d73625457db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccfa2903d7df68e01ae0dd2466cf8aa') in 0.652527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Emerald AI/Fonts/Freeride.otf
+  artifactKey: Guid(4516f4f478d548647bb6b938095bfd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Fonts/Freeride.otf using Guid(4516f4f478d548647bb6b938095bfd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1181a31ac48d17ede7ec4f1599b62f47') in 0.175636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Emerald AI/Demo Source/Extra/Hand Painted Forest/Materials/branch snow.mat
+  artifactKey: Guid(33c593bf9fba5d04d907d468765a2b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/Extra/Hand Painted Forest/Materials/branch snow.mat using Guid(33c593bf9fba5d04d907d468765a2b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375fc0adb9851c44d73456bcc57bdf9f') in 3.094286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/HUD/_fonts/consola.ttf
+  artifactKey: Guid(1c7a637ebb71f034c97397ef794d1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/HUD/_fonts/consola.ttf using Guid(1c7a637ebb71f034c97397ef794d1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943ceaf992ae9233e8564161659dd8f0') in 0.012790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Materials/stepSand.mat
+  artifactKey: Guid(b6b6fe42fca74e84f86c69891ca6a989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Materials/stepSand.mat using Guid(b6b6fe42fca74e84f86c69891ca6a989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980a5940f21622ff24bd9a89623a0ce3') in 3.833977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Props/cardboard/Textures/_Materials/box.mat
+  artifactKey: Guid(8ae4f004452074c4a9c75db349ed9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Props/cardboard/Textures/_Materials/box.mat using Guid(8ae4f004452074c4a9c75db349ed9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f564e261ea0154e6e41c81ef14a29ae3') in 1.518565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials/V-bot-mobile@orange.mat
+  artifactKey: Guid(d9cd56450d1884a41857e2d211dd4249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials/V-bot-mobile@orange.mat using Guid(d9cd56450d1884a41857e2d211dd4249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da923d90c66ed99b35f7401bab3a36e7') in 0.108109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/carbon2.mat
+  artifactKey: Guid(fdcb5d92a21150a46b75fd32ed28c8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/carbon2.mat using Guid(fdcb5d92a21150a46b75fd32ed28c8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b1b3526846e25b069327295ca70297') in 1.098210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Models/Props/Materials/Rakes_Albedo.mat
+  artifactKey: Guid(fb4d7fc57f4cdbf4082604f153736be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Models/Props/Materials/Rakes_Albedo.mat using Guid(fb4d7fc57f4cdbf4082604f153736be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625dbae4e2fcdb9de39ce63942b8aeae') in 0.909343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/Textures/vTexture/redline.mat
+  artifactKey: Guid(5b0fff1cce03fb34dafb1155e9caf794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/Textures/vTexture/redline.mat using Guid(5b0fff1cce03fb34dafb1155e9caf794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d403348c0989a036d462233da3bfb3') in 0.018201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/Training Dummy/Materials/TrainingDummy_Albedo.mat
+  artifactKey: Guid(3b31ba86f44178a42b7e98a1e89a7f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/Training Dummy/Materials/TrainingDummy_Albedo.mat using Guid(3b31ba86f44178a42b7e98a1e89a7f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c706c40324634c17761f0a61be89f6') in 0.335231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/statue_blue.mat
+  artifactKey: Guid(9feb0a6f97a564444a0fb8d6f2292025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/statue_blue.mat using Guid(9feb0a6f97a564444a0fb8d6f2292025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e77a94a1fce5a31a221332aa576475') in 0.473096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Props/bullets/materials/bulletCollectable.mat
+  artifactKey: Guid(e9bfd998f3f20bb40ac6c1f25bd49c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Props/bullets/materials/bulletCollectable.mat using Guid(e9bfd998f3f20bb40ac6c1f25bd49c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965928078414773cfb48fdecf8faef85') in 0.010626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Emerald AI/Textures_Materials/Materials/Slash Effect 2.mat
+  artifactKey: Guid(2764ccafa6514524dbcf13e9376549f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Textures_Materials/Materials/Slash Effect 2.mat using Guid(2764ccafa6514524dbcf13e9376549f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b12f66758fdb5ed636b61927569c1ff') in 2.012452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/Resources/StatueBase.mat
+  artifactKey: Guid(ee46373ac2c113445951521d67459ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/Resources/StatueBase.mat using Guid(ee46373ac2c113445951521d67459ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e19a537c1f2f4916910632778a0a722') in 1.159608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Boy_Naked.prefab
+  artifactKey: Guid(1b7b502c1d13936449cf9aafc517a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Boy_Naked.prefab using Guid(1b7b502c1d13936449cf9aafc517a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f48120580c31195341c97e5eee35fe8') in 0.028385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Emerald AI/Fonts/LiberationSans-Regular.ttf
+  artifactKey: Guid(8bf79c40216685f4db5ca0e379eee760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Fonts/LiberationSans-Regular.ttf using Guid(8bf79c40216685f4db5ca0e379eee760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f94795cbb59f919846ebd0295d9b6f4') in 0.107739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Textures/VbotBlackShooterEdition/BlackShooterEdition/Members_Metal.mat
+  artifactKey: Guid(e6839823f9c76e74eaaa0012a1964f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Textures/VbotBlackShooterEdition/BlackShooterEdition/Members_Metal.mat using Guid(e6839823f9c76e74eaaa0012a1964f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d23a86b196fcdad85c3f566a79e5805') in 0.014224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Emerald AI/Demo Source/Effects/Materials/Weapon Trail.mat
+  artifactKey: Guid(49747a5c5395e3a41bfd36ec18c73bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/Effects/Materials/Weapon Trail.mat using Guid(49747a5c5395e3a41bfd36ec18c73bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080bc593d3ffd04585f32c038146b643') in 0.060602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Props/targetPractice/Materials/targetPractice.mat
+  artifactKey: Guid(421b891ff49317b4c8a72e6d8d782cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Props/targetPractice/Materials/targetPractice.mat using Guid(421b891ff49317b4c8a72e6d8d782cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382fac6ca6512d549c6f7ead6d37ae61') in 2.283186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Female_Peasant_01_a.prefab
+  artifactKey: Guid(1906c8b8d7539724b9f8bed9421c270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Female_Peasant_01_a.prefab using Guid(1906c8b8d7539724b9f8bed9421c270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a960c3e16be7c44e7ed171c68ff449') in 0.386998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Emerald AI/Scripts/Shaders/Emerald AI UI.mat
+  artifactKey: Guid(cce48990f153b024382daddf97052769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Scripts/Shaders/Emerald AI UI.mat using Guid(cce48990f153b024382daddf97052769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8877286320438ad84499efd5d2aa6af') in 0.012602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Male_Peasant_01.prefab
+  artifactKey: Guid(a0cb3b35b5fb2564983f2275ffa69733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Male_Peasant_01.prefab using Guid(a0cb3b35b5fb2564983f2275ffa69733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadc3b40e18960041beda31502ed007f') in 0.016988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Resources/Shared/Environment/Materials/InvectorLogo.mat
+  artifactKey: Guid(8673c144bddc0f748bf22b12b37a8308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Resources/Shared/Environment/Materials/InvectorLogo.mat using Guid(8673c144bddc0f748bf22b12b37a8308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc8bf789620167d32b63d1aed3b1b51') in 0.197613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Emerald AI/Resources/New Font.mat
+  artifactKey: Guid(0d678346cdcab0448bfe0135bd2c08a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Resources/New Font.mat using Guid(0d678346cdcab0448bfe0135bd2c08a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cde24e8a2f64d07b7abe0b4d1440b72') in 0.085887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Materials/ParticleSmokeVertlit.mat
+  artifactKey: Guid(225843b6084e75440a6ea970a17c93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/FootStep/Materials/ParticleSmokeVertlit.mat using Guid(225843b6084e75440a6ea970a17c93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9158aa77fb79ef6149c1fc9a156335c') in 0.010812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Animations/MadMikeMoose/MadMikeMoose_Idle.fbx
+  artifactKey: Guid(28d0d4f03b802df4e84fafc8a53df767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/AI Models/MikeMoose/Art/Animations/MadMikeMoose/MadMikeMoose_Idle.fbx using Guid(28d0d4f03b802df4e84fafc8a53df767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fa4bec83adfaf12c2975e2f87cf471') in 0.603883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Emerald AI/Demo Source/Textures_Materials/Materials/Dust Impact.mat
+  artifactKey: Guid(6f634bed886ee39409f229f952efb814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Emerald AI/Demo Source/Textures_Materials/Materials/Dust Impact.mat using Guid(6f634bed886ee39409f229f952efb814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8439f183de652eb30c50585726690c1') in 0.409992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/vMeleeWeapons/vAxe/Materials/Axe_Material_010.mat
+  artifactKey: Guid(45eb9691b900f4c47bfca1608d665978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/vMeleeWeapons/vAxe/Materials/Axe_Material_010.mat using Guid(45eb9691b900f4c47bfca1608d665978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca3cd349c982f150daa4dc5bd5f72cb') in 0.010735 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003061 seconds.
+Registered in 0.003011 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
+- Completed reload, in  1.050 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1012ms)
+	ReloadAssembly (1051ms)
 		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (797ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (401ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (307ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (22.0 KB). Loaded Objects now: 3922.
-Memory consumption went from 130.4 MB to 130.4 MB.
-Total: 2.540700 ms (FindLiveObjects: 0.318200 ms CreateObjectMapping: 0.084700 ms MarkObjects: 2.114500 ms  DeleteObjects: 0.022600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002969 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
-Domain Reload Profiling:
-	ReloadAssembly (986ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (777ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (244ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (387ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (449ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (22.0 KB). Loaded Objects now: 3925.
-Memory consumption went from 130.4 MB to 130.4 MB.
-Total: 2.522800 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.085100 ms MarkObjects: 2.093900 ms  DeleteObjects: 0.031200 ms)
+Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (22.0 KB). Loaded Objects now: 4065.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 2.950900 ms (FindLiveObjects: 0.333100 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.493500 ms  DeleteObjects: 0.037500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -285,49 +983,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002528 seconds.
+Registered in 0.002945 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.976 seconds
+- Completed reload, in  1.024 seconds
 Domain Reload Profiling:
-	ReloadAssembly (977ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
+			SetupTypeCache (238ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (402ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (436ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (56ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (22.0 KB). Loaded Objects now: 3928.
-Memory consumption went from 130.5 MB to 130.4 MB.
-Total: 3.138100 ms (FindLiveObjects: 0.352500 ms CreateObjectMapping: 0.105700 ms MarkObjects: 2.651200 ms  DeleteObjects: 0.027700 ms)
+Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (22.0 KB). Loaded Objects now: 4068.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 2.985700 ms (FindLiveObjects: 0.363800 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.507800 ms  DeleteObjects: 0.026200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -343,49 +1041,165 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002780 seconds.
+Registered in 0.003580 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.964 seconds
+- Completed reload, in  2.001 seconds
 Domain Reload Profiling:
-	ReloadAssembly (964ms)
+	ReloadAssembly (2001ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1790ms)
+			LoadAssemblies (927ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (22.0 KB). Loaded Objects now: 4071.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 2.988800 ms (FindLiveObjects: 0.456900 ms CreateObjectMapping: 0.114200 ms MarkObjects: 2.387200 ms  DeleteObjects: 0.029100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002895 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1001ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (22.1 KB). Loaded Objects now: 4074.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 2.961700 ms (FindLiveObjects: 0.374200 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.474400 ms  DeleteObjects: 0.026300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003317 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1006ms)
 		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (750ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
+			SetupTypeCache (230ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (391ms)
+			SetupLoadedEditorAssemblies (422ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (295ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (21.9 KB). Loaded Objects now: 3931.
-Memory consumption went from 130.5 MB to 130.4 MB.
-Total: 2.681700 ms (FindLiveObjects: 0.356300 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.217100 ms  DeleteObjects: 0.023300 ms)
+Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (22.0 KB). Loaded Objects now: 4077.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 3.060200 ms (FindLiveObjects: 0.340600 ms CreateObjectMapping: 0.078400 ms MarkObjects: 2.614500 ms  DeleteObjects: 0.025500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -401,50 +1215,107 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003485 seconds.
+Registered in 0.003072 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
+- Completed reload, in  0.978 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1037ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (796ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (227ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (392ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (401ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (300ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (21.9 KB). Loaded Objects now: 4080.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 2.606300 ms (FindLiveObjects: 0.315100 ms CreateObjectMapping: 0.082600 ms MarkObjects: 2.182500 ms  DeleteObjects: 0.025300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003613 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (763ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (306ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3502 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (485.1 KB). Loaded Objects now: 4000.
-Memory consumption went from 135.4 MB to 134.9 MB.
-Total: 2.747700 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.130500 ms  DeleteObjects: 0.246500 ms)
+Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (22.0 KB). Loaded Objects now: 4083.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 3.070500 ms (FindLiveObjects: 0.348800 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.599800 ms  DeleteObjects: 0.030400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -460,50 +1331,397 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002504 seconds.
+Registered in 0.003454 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
+- Completed reload, in  0.983 seconds
 Domain Reload Profiling:
-	ReloadAssembly (990ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (763ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (222ms)
+			SetupTypeCache (224ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (406ms)
+			SetupLoadedEditorAssemblies (414ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (22.0 KB). Loaded Objects now: 4086.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 2.982900 ms (FindLiveObjects: 0.407600 ms CreateObjectMapping: 0.215200 ms MarkObjects: 2.328500 ms  DeleteObjects: 0.030800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003457 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (967ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (758ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (21.9 KB). Loaded Objects now: 4089.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 3.042000 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.579500 ms  DeleteObjects: 0.024200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002805 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Domain Reload Profiling:
+	ReloadAssembly (974ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (303ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (21.9 KB). Loaded Objects now: 4092.
+Memory consumption went from 166.1 MB to 166.0 MB.
+Total: 2.702800 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.097800 ms MarkObjects: 2.211600 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003563 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3502 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (484.9 KB). Loaded Objects now: 4003.
-Memory consumption went from 135.5 MB to 135.0 MB.
-Total: 2.950600 ms (FindLiveObjects: 0.414400 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.186200 ms  DeleteObjects: 0.272000 ms)
+Unloading 3500 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (21.9 KB). Loaded Objects now: 4095.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 2.629800 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.086700 ms MarkObjects: 2.204700 ms  DeleteObjects: 0.029000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002793 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Domain Reload Profiling:
+	ReloadAssembly (971ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3500 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (22.0 KB). Loaded Objects now: 4098.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 2.669300 ms (FindLiveObjects: 0.347100 ms CreateObjectMapping: 0.101000 ms MarkObjects: 2.197300 ms  DeleteObjects: 0.022800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003233 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (947ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (745ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3500 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (22.0 KB). Loaded Objects now: 4101.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 2.703800 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.086300 ms MarkObjects: 2.271100 ms  DeleteObjects: 0.031500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004239 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Domain Reload Profiling:
+	ReloadAssembly (961ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3500 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (22.0 KB). Loaded Objects now: 4104.
+Memory consumption went from 166.0 MB to 166.0 MB.
+Total: 2.653600 ms (FindLiveObjects: 0.340100 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.208600 ms  DeleteObjects: 0.018100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

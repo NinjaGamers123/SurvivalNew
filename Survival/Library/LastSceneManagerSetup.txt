@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Emerald AI/Scenes/Waypoint Example.unity
+- path: Assets/NewMap.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
