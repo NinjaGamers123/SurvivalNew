@@ -696,6 +696,7 @@
 "Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Scripts/vShooterScore.cs"
 "Assets/Invector-3rdPersonController/Shooter/TargetTrainingMiniGame/Scripts/vShooterTrainingController.cs"
 "Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs"
+"Assets/Testing.cs"
 -langversion:9.0
 
 /deterministic

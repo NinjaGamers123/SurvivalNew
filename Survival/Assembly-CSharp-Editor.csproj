@@ -61,7 +61,6 @@
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vTagMaskDrawer.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\Editor\vCreateInventoryEditor.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vCheckPropertyDrawer.cs" />
-     <Compile Include="Assets\Blink\Art\Characters\LowPoly\Editor\MaterialTilingOffset.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Shooter\Editor\vAmmoListDataEditor.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterCreator\Script\Editor\vCreateBasicCharacterEditor.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Editor\vAudioSurfaceEditor.cs" />
@@ -73,6 +72,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\vGenericInputDrawer.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Shooter\Editor\IKOffsetTransformDrawer.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Health\Editor\vDamageModifierDrawer.cs" />
+     <Compile Include="Assets\Polytope Studio\Lowpoly_Characters\Sources\Scripts\Editor\PT_Create_Prefab_Editor.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\Editor\vItemEditor.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\vInvectorStartup.cs" />
      <Compile Include="Assets\Emerald AI\Scripts\Editor\EmeraldAIAnimatorGenerator.cs" />
@@ -145,6 +145,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\BodySnapSystem\Scripts\Editor\Resources" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vItemEnumsBuilder\Editor" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\Editor" />
+     <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\Sources\Scripts\Editor" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\MeleeWeapon\Editor" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\Editor" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Shooter\Editor" />
@@ -162,7 +163,6 @@
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\Editor" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\Resources" />
-     <Folder Include="Assets\Blink\Art\Characters\LowPoly\Editor" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\WaypointSystem\Editor" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\CharacterController\Editor" />
      <Reference Include="UnityEngine">
