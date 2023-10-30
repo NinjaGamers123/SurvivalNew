@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.111732006, g: 0.27664745, b: 0.44069266, a: 1}
+  m_IndirectSpecularColor: {r: 0.111866385, g: 0.2772617, b: 0.4407899, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5267,8 +5267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openCloseEvents: 0
-  openCloseWindow: 0
-  selectedToolbar: 0
+  openCloseWindow: 1
+  selectedToolbar: 1
   _isDead: 0
   _currentHealth: 100
   isImmortal: 0
@@ -5372,7 +5372,7 @@ MonoBehaviour:
     walkByDefault: 0
     rotateWithCamera: 0
     walkSpeed: 2
-    runningSpeed: 4
+    runningSpeed: 6
     sprintSpeed: 6
     crouchSpeed: 2
   disableAnimations: 0
@@ -9789,6 +9789,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013689140894, guid: a7d9c15005f047843ad0871efc7c7872, type: 3}
   m_PrefabInstance: {fileID: 777566872}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &792245294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 792245295}
+  m_Layer: 8
+  m_Name: SleepingBag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &792245295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792245294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7676744314222690380}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &817237228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15853,6 +15884,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013689140894, guid: a7d9c15005f047843ad0871efc7c7872, type: 3}
   m_PrefabInstance: {fileID: 1622536930}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1649844737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1649844738}
+  - component: {fileID: 1649844739}
+  m_Layer: 0
+  m_Name: PlayerSurvialManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1649844738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649844737}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1649844739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649844737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b9a57962b7bf3a43aa4d04a88741387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterController: {fileID: 198837019}
+  sleepingBag: {fileID: 792245294}
+  weaponColliders:
+  - {fileID: 3700803427826691172}
+  - {fileID: 2708506780601874124}
 --- !u!1001 &1711097577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29406,7 +29486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 0
-  selectedToolbar: 0
+  selectedToolbar: 4
   inputType: 0
   actionInput:
     useInput: 1
@@ -29552,7 +29632,19 @@ MonoBehaviour:
   onPressActionDelay: 0
   OnPressActionInput:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1649844739}
+        m_TargetAssemblyTypeName: PlayerSurvialManager, Assembly-CSharp
+        m_MethodName: OnWeaponAcquired
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2708506780601874124}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.CapsuleCollider, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onPressActionInputWithTarget:
     m_PersistentCalls:
       m_Calls: []
@@ -32852,7 +32944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 0
-  selectedToolbar: 0
+  selectedToolbar: 4
   inputType: 0
   actionInput:
     useInput: 1
@@ -32998,7 +33090,19 @@ MonoBehaviour:
   onPressActionDelay: 0
   OnPressActionInput:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1649844739}
+        m_TargetAssemblyTypeName: PlayerSurvialManager, Assembly-CSharp
+        m_MethodName: OnWeaponAcquired
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3700803427826691172}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.CapsuleCollider, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onPressActionInputWithTarget:
     m_PersistentCalls:
       m_Calls: []
@@ -59587,6 +59691,7 @@ Transform:
   - {fileID: 192050149}
   - {fileID: 6294650955527925402}
   - {fileID: 192150721}
+  - {fileID: 792245295}
   m_Father: {fileID: 192132101}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
