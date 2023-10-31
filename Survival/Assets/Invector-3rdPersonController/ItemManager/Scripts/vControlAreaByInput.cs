@@ -29,6 +29,13 @@ namespace Invector.vItemManager
 
         void Update()
         {
+            //By Fasih
+            if (PlayerSurvialManager.Instance.sleepingBagAcquired)
+            {
+                equipArea.SetEquipSlot(slotsSelectors[2].indexOfSlot);
+                onSelectSlot?.Invoke(slotsSelectors[2].indexOfSlot);
+                return;
+            }
             if (!inventory || !equipArea || inventory.lockInventoryInput) return;
 
             for (int i = 0; i < slotsSelectors.Count; i++)
@@ -55,6 +62,8 @@ namespace Invector.vItemManager
                 }
             }
         }
+        
+        
 
         [System.Serializable]
         public class SlotsSelector

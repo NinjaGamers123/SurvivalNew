@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{2c54c058-9f33-abe6-8890-113d762c0616}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Animals", "Polyperfect.Animals.csproj", "{3fd01b42-4c10-591b-761d-093037d2a19a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Common", "Polyperfect.Common.csproj", "{a7d85495-2285-d81a-b135-f9fe58a8a1c7}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{142ff208-30b8-5e62-3d2c-fbb34371b1bb}"
 EndProject
 Global
@@ -16,6 +20,10 @@ Global
 		{0338dc71-0728-3dd2-8bfd-5a0fec7f391e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2c54c058-9f33-abe6-8890-113d762c0616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2c54c058-9f33-abe6-8890-113d762c0616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3fd01b42-4c10-591b-761d-093037d2a19a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3fd01b42-4c10-591b-761d-093037d2a19a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a7d85495-2285-d81a-b135-f9fe58a8a1c7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a7d85495-2285-d81a-b135-f9fe58a8a1c7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{142ff208-30b8-5e62-3d2c-fbb34371b1bb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{142ff208-30b8-5e62-3d2c-fbb34371b1bb}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

@@ -52,7 +52,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Generic\vAimCanvas.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\vClassHeaderAttribute.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorTagBase.cs" />
-     <Compile Include="Assets\Testing.cs" />
+     <Compile Include="Assets\Scripts\Testing.cs" />
      <Compile Include="Assets\Emerald AI\Scripts\Components\EmeraldAINonAIDamage.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorTag.cs" />
      <Compile Include="Assets\Emerald AI\Scripts\Character Controller\EmeraldAICharacterControllerTopDown.cs" />
@@ -142,6 +142,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vItemCollectionDisplay.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Triggers\vChangeCameraAngleTrigger.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vAnimatorStateInfo.cs" />
+     <Compile Include="Assets\Scripts\PlayerSurvialManager.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Melee Combat\Simple Melee AI\Scripts\vSimpleMeleeAI_Companion.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vLeaveDropItemExample.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vThirdPersonAnimator.cs" />
@@ -387,7 +388,6 @@
      <Compile Include="Assets\Emerald AI\Scripts\Components\EmeraldAINeedsSystem.cs" />
      <Compile Include="Assets\Emerald AI\Scripts\Character Controller\EmeraldAICharacterController.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vInstantiate.cs" />
-     <Compile Include="Assets\PlayerSurvialManager.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vSword\Materials" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Prefabs\Flowers" />
@@ -395,10 +395,13 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Audio\FootSteps\Gravel" />
      <Folder Include="Assets\Emerald AI\Demo Source\Effects\Prefabs" />
      <Folder Include="Assets\Emerald AI\Demo Source\Textures_Materials\Textures\Particles" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\01 - Main Scene" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\3D Models\Texture" />
      <None Include="Assets\Emerald AI\Credit\Credit.txt" />
      <Folder Include="Assets\Emerald AI\Sounds\Impact Sounds" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\SRP" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Shark" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Vases\Script" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\Environment" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Models\Props" />
@@ -418,6 +421,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2\Elf Mage Pack\Mesh\Materials" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\Sources\Scripts" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Seagull" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2\Elf Mage Pack\Controller" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Audio\Others" />
@@ -444,11 +448,14 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem\Models" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\ObjectDamage" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Models\Characters\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Materials\Colors\Emission" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Orca" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\vRifle\Scripts" />
      <None Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Demon\Mesh\readMe.txt" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Prefabs\Items\Inventory_Collectables" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props\vBarrel\3DModel\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Lion" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\IK" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vSword" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\DecalManager\BulletEffect\Resources\textures" />
@@ -501,6 +508,8 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Resources\Shared" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\ObjectDamage\vSpike" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Animations\MadMikeMoose\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Materials\Environments" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Textures\Brushes" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Demos\Peasants_Free_Asset\Prefabs" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Texture\Terrain" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Demon\Mesh\Materials" />
@@ -508,6 +517,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem\Animations\V-bot@Bow.fbm" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\DemoScenes" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Horse\Horse_Rig.fbm" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\3D Models\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires\Meshes\assets" />
      <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
@@ -521,6 +531,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\HUD\gamePadIcons" />
      <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\Emerald AI\Textures_Materials\Textures\Particles" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Vases\Sounds" />
      <None Include="Assets\Invector-3rdPersonController\Shooter\Changelog_Shooter.txt" />
      <Folder Include="Assets\Emerald AI\Sounds\NPCs\Skeleton" />
@@ -537,11 +548,13 @@
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vShield" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\vOctagon" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Buffolo" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\SimpleIK" />
      <Folder Include="Assets\Emerald AI\Demo Source\Textures_Materials\Textures\Examples" />
      <Folder Include="Assets\Emerald AI\Demo Source\NavMesh\Setting Up" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\UI" />
+     <Folder Include="Assets\polyperfect" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\HeadTrack" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\VirtualShield" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires\Shaders" />
@@ -550,6 +563,7 @@
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\vWeaponsNew" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\vRifle\Prefabs" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Furniture" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Characters\Invector@V-Bot 2.0\FBX" />
      <Folder Include="Assets\Emerald AI\Prefabs\Particle Effects" />
      <Folder Include="Assets\Emerald AI\Sounds\Spells" />
@@ -564,6 +578,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\vWeaponsNew\mesh\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Audio\FootSteps\Metal" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\Training Dummy\Models" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Chimpanzee" />
      <Folder Include="Assets\Emerald AI\Scripts\Example Systems" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Audio" />
      <None Include="Assets\Invector-3rdPersonController\Melee Combat\Simple Melee AI\SIMPLE MELEE AI README.txt" />
@@ -578,16 +593,19 @@
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Mouse Spear\Mesh\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\HealthItem\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Textures" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Prefabs\Animals\DEMO" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\vOctagon\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\Particles\Explosion\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props\vBarrel\3DModel" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\SurfacesTextures\Glass" />
+     <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\UI Animations" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props\targetPractice\Materials" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Models\Props\Materials" />
      <None Include="Assets\Invector-3rdPersonController\Basic Locomotion\Changelog_Basic.txt" />
      <Folder Include="Assets\Emerald AI\Demo Source" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Cat" />
      <Folder Include="Assets\Emerald AI\Demo Source\Extra\Hand Painted Bushes\Models" />
      <Folder Include="Assets\Invector-3rdPersonController" />
      <None Include="Assets\Emerald AI\Scripts\Shaders\Emerald AI UI +1.shader" />
@@ -597,7 +615,9 @@
      <Folder Include="Assets\Polytope Studio\Lowpoly_Props\Sources\Meshes" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Meshes\Trees" />
      <None Include="Assets\Invector-3rdPersonController\Basic Locomotion\Resources\vTriplanar.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Navmesh" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Resources" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Animator Controllers\DEMO" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\SimpleDoor" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Audio\Weapons\NewWeaponSounds" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vSword\SwordV_long.fbm" />
@@ -606,6 +626,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Shooter (Require Shooter Template)\Scenes" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\Player" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\StarFish" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Vases" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\HUD\other" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\SurfacesTextures\wood_A\Materials" />
@@ -628,8 +649,10 @@
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\Sources" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem\Animations\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Prefabs\Props" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Material\Characters" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\HUD\guide-texts\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Prefabs\Animals" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\Animation" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Prefabs\Weapons" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame\TargetAnimation" />
@@ -643,6 +666,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Characters\Invector@V-Bot\Materials@custom" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Simple Melee AI\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\DecalManager\BulletEffect" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Penguin" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Mouse Spear\Prefab" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Props\Sources\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Animations" />
@@ -661,12 +685,15 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem\Animations" />
      <Folder Include="Assets\Emerald AI\Documentation" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Interactables" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Hen" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\DemoScenes" />
      <Folder Include="Assets\Lowpoly Style\Arctic Tundra\PreFab Map" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Generic" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\Prefabs\Modular_NPC" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Sounds" />
      <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\vRifle\Animations" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Rabbit" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Textures\VbotBlackShooterEdition\BlackShooterEdition" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Demos\Peasants_Free_Asset" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2\Elf Mage Pack\Mesh" />
@@ -675,10 +702,13 @@
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Melee (Require MeleeCombat Template)\Scenes\Invector_Mobile_MeleeCombat_NoInventory" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Animator Controllers" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Resources" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\Weapon\_weapons_WITH_Inventory" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Tiger" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\HUD\mobile" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Textures" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\SurfacesTextures\Brick\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\SurfacesTextures\Brick" />
@@ -689,6 +719,7 @@
      <Folder Include="Assets\Lowpoly Style\Arctic Tundra\Prefabs" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Prefabs\Environment" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props\ShooterTrainingArea" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Terrains" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Invector_Mobile_BasicLocomotion" />
      <Folder Include="Assets\Emerald AI\Scripts\UI" />
      <None Include="Assets\Emerald AI\Scripts\Shaders\Emerald AI Outline Shader.shader" />
@@ -701,7 +732,10 @@
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Animator" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Particles" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Deer" />
      <Folder Include="Assets\Emerald AI\Sounds\Weapons" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Roaster" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Fish" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\prototype_textures\Textures" />
      <None Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Shaders\SeeThrough.shader" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Props" />
@@ -711,10 +745,12 @@
      <Folder Include="Assets\Emerald AI\Scripts\Shaders\Font" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\BodySnapSystem\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\DemoScenes" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\JellyFish" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Particles" />
      <Folder Include="Assets\Emerald AI\Textures_Materials\Textures" />
      <Folder Include="Assets\Lowpoly Style\Shared FBX Meshes\Plants" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Dog-GreatDane" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Health" />
      <Folder Include="Assets\Emerald AI\Demo Source\Extra\Hand Painted Forest\Materials" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Texture" />
@@ -723,7 +759,11 @@
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\Sources\Modular_NPC\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Textures" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Bear" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Boar" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Resources\Shared\Environment\Prefabs" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Spider" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Props" />
      <Folder Include="Assets\Emerald AI\Demo Source\Effects\Textures" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Textures" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Mouse Spear\Motion" />
@@ -733,23 +773,28 @@
      <None Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Rock\Mesh\readMe.txt" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\prototype_textures\Materials" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Rock\Texture" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Textures\Terrain" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\Particles\Explosion\Textures" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Props\Sources\Textures" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Mouse Spear" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Melee (Require MeleeCombat Template)\Prefabs" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Nature" />
      <Folder Include="Assets\Emerald AI\Demo Source\Textures_Materials\Textures\Terrain" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vKatana\Textures" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Prefabs" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Simple Melee AI\Prefabs\Enemies" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Materials\Animals" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vAxe" />
      <Folder Include="Assets\Lowpoly Style\Shared FBX Meshes\Items and Decoration" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\SimpleDoor\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props\cardboard\Textures\cardboard" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Demon" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Wolf" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Characters\Invector@V-Bot 2.0\Material" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Dove" />
      <Folder Include="Assets\Emerald AI\Scripts\Player" />
      <Folder Include="Assets\Emerald AI\Textures_Materials\Textures\Terrain\Terrain Textures" />
      <Folder Include="Assets\Emerald AI\Demo Source\Effects" />
@@ -771,6 +816,7 @@
      <Folder Include="Assets\Lowpoly Style\Shared FBX Meshes\Terrain" />
      <Folder Include="Assets\Emerald AI\Resources\Animations" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2\Elf Mage Pack\Demo" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Chick" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\Resources" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\SurfacesTextures\cement\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Shooter (Require Shooter Template)\Prefabs\Other" />
@@ -779,8 +825,10 @@
      <Folder Include="Assets\Emerald AI\Scripts\System" />
      <None Include="Assets\Invector-3rdPersonController\ItemManager\3D Models\Materials\UIOnTopShader.shader" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\Training Dummy\Models\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Eagle" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vKatana" />
      <Folder Include="Assets\Emerald AI\Sounds\NPCs\Spider" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Crocodile" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props\bullets" />
      <Folder Include="Assets\Emerald AI\Demo Source\Textures_Materials\Materials" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2" />
@@ -793,17 +841,24 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Particles" />
      <None Include="Assets\Invector-3rdPersonController\Shooter\Scripts\DecalManager\Particle.shader" />
      <Folder Include="Assets\Lowpoly Style\Arctic Tundra\DemoScene" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Tucan" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Prefabs" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vSword\SwordV.fbm" />
      <Folder Include="Assets\Emerald AI\Demo Source\Extra\Hand Painted Forest\Textures" />
      <None Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\HOW TO ENABLE-DISABLE UI BUTTONS.txt" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Horse" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\BitGem\Skeleton_Swordsman\Animations" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Prefabs\UI" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Gorilla" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Prefabs" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\basicTextures\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame\Models" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame\TargetAnimation\V2" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Characters\Invector@V-Bot 2.0\Textures" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Snake" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\3D Models\Animation" />
      <Folder Include="Assets\Emerald AI\Demo Source\Extra\Hand Painted Forest" />
      <Folder Include="Assets\Emerald AI\Demo Source\Character Controller" />
@@ -838,6 +893,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Resources\Vbot2.0_IKAdjusts" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic" />
      <Folder Include="Assets\Emerald AI\Demo Source\Extra\Hand Painted Forest\Meshes" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Materials\Colors\Transparent" />
      <None Include="Assets\Emerald AI\Scripts\Shaders\Emerald AI UI.shader" />
      <Folder Include="Assets\Emerald AI\Resources" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\Examples" />
@@ -854,6 +910,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Characters\Invector@V-Bot\Materials" />
      <Folder Include="Assets\Emerald AI\Textures_Materials\Textures\Examples\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires\Textures" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Materials\Colors" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon\Resources" />
      <Folder Include="Assets\Emerald AI\Demo Source\Animations\Player" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Demon\Mesh" />
@@ -861,6 +918,7 @@
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2\Elf Mage Pack\Motion" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\Particles\Explosion" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\BitGem" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Dog-Chihauhau" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\Sources\Modular_NPC\Meshes\Peasants_Citizens\Sets" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Resources\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Shooter (Require Shooter Template)\Scenes\Invector_Mobile_Shooter_NOInventory" />
@@ -872,11 +930,17 @@
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires" />
      <Folder Include="Assets\Emerald AI\Demo Source\Terrain\Terrain Layers\Demo Terrain 2" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\ItemListData" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- UI" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterCreator" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\ObjectDamage\Texture" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\Sources\Modular_NPC\Meshes" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem\Prefabs\NoInventory" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- UI\Gizmos" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\3D Models" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Dog-GoldenRetriever" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Stats" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Scenes" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Cow" />
      <Folder Include="Assets\Lowpoly Style\Shared FBX Meshes\Rocks" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Melee (Require MeleeCombat Template)" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\BitGem\Skeleton_Swordsman" />
@@ -888,6 +952,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other" />
      <Folder Include="Assets\Emerald AI\Prefabs\Camera Shake" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\Training Dummy\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Elephant" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\Weapon\_weapons_WITHOUT_Inventory\_ammo" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Resources" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Resources" />
@@ -908,13 +973,17 @@
      <Folder Include="Assets\Polytope Studio\Lowpoly_Props\Prefabs" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\DecalManager\BulletEffect\Resources\prefabs" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Rock" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Terrains" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\DemoScenes\Invector_MeleeCombat" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\DecalManager" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ThrowSystem\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Audio\FootSteps" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\SurfacesTextures\wood_A" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Props\Sources" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Textures\Animals" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Prefabs\Others" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Textures\Environments" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\HealthItem" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Texture\MadMooseMike" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2\Elf Mage Pack\Prefab" />
@@ -922,7 +991,9 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\ObjectDamage\Material" />
      <Folder Include="Assets\NewMap" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Prefabs\Items" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Pig" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Vases\FBX" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Giraffe" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\MeleeWeapon" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterCreator\Icon" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Characters\Invector@V-Bot\Textures" />
@@ -960,6 +1031,7 @@
      <Folder Include="Assets\Emerald AI\Demo Source\Terrain\Terrain Layers\Demo Terrain 1" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Texture\Tools" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem" />
+     <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Prefabs\Nature" />
      <Folder Include="Assets\Emerald AI\Demo Source\Textures_Materials\Textures" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\Switch" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterCreator\CameraStates" />
@@ -1669,6 +1741,14 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{2c54c058-9f33-abe6-8890-113d762c0616}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Polyperfect.Animals.csproj">
+      <Project>{3fd01b42-4c10-591b-761d-093037d2a19a}</Project>
+      <Name>Polyperfect.Animals</Name>
+    </ProjectReference>
+    <ProjectReference Include="Polyperfect.Common.csproj">
+      <Project>{a7d85495-2285-d81a-b135-f9fe58a8a1c7}</Project>
+      <Name>Polyperfect.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

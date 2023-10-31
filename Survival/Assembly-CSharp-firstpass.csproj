@@ -752,6 +752,14 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Polyperfect.Animals.csproj">
+      <Project>{3fd01b42-4c10-591b-761d-093037d2a19a}</Project>
+      <Name>Polyperfect.Animals</Name>
+    </ProjectReference>
+    <ProjectReference Include="Polyperfect.Common.csproj">
+      <Project>{a7d85495-2285-d81a-b135-f9fe58a8a1c7}</Project>
+      <Name>Polyperfect.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

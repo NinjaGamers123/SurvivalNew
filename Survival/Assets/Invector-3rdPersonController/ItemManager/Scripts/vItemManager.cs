@@ -995,7 +995,10 @@ namespace Invector.vItemManager
                     if (equipment != null)
                     {
                         equipPoint.area = equipArea;
-                        StartCoroutine(EquipItemRoutine(equipPoint, item, () => { onFinishEquipItem?.Invoke(equipArea, item); }));
+                        StartCoroutine(EquipItemRoutine(equipPoint, item, () =>
+                        {
+                            onFinishEquipItem?.Invoke(equipArea, item);
+                        }));
                     }
                 }
             }
@@ -1209,7 +1212,10 @@ namespace Invector.vItemManager
                             animator.SetBool("FlipEquip", equipArea.equipPointName.Contains("Left"));
                             animator.CrossFade(item.DisableAnim, 0.25f);
                         }
-                        StartCoroutine(UnequipItemRoutine(equipPoint, item, () => { onFinishUnequipItem?.Invoke(equipArea, item); }));
+                        StartCoroutine(UnequipItemRoutine(equipPoint, item, () =>
+                        {
+                            onFinishUnequipItem?.Invoke(equipArea, item);
+                        }));
                     }
                 }
             }
@@ -1219,7 +1225,6 @@ namespace Invector.vItemManager
                 {
                     UnityEngine.Debug.Log($"<color=red>Finish Unequip {item}</color>");
                 }
-
                 onFinishUnequipItem.Invoke(equipArea, item);
             }
             inventory.UpdateInventory();
