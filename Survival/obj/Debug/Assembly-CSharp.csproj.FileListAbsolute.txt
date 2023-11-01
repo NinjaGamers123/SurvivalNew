@@ -353,3 +353,7 @@ C:\projects\SurvivalNew\Survival\obj\Debug\Assembly-CSharp.csproj.CoreCompileInp
 C:\projects\SurvivalNew\Survival\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\projects\SurvivalNew\Survival\obj\Debug\Assembly-CSharp.dll
 C:\projects\SurvivalNew\Survival\obj\Debug\Assembly-CSharp.pdb
+D:\Unity Projects\SurvivalNew\Survival\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+D:\Unity Projects\SurvivalNew\Survival\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\Unity Projects\SurvivalNew\Survival\obj\Debug\Assembly-CSharp.dll
+D:\Unity Projects\SurvivalNew\Survival\obj\Debug\Assembly-CSharp.pdb

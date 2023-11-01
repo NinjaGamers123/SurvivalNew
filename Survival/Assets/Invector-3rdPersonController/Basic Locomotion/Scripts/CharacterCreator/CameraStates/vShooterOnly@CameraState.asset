@@ -70,7 +70,7 @@ MonoBehaviour:
     defaultDistance: 2.09
     maxDistance: 1.5
     minDistance: 0.25
-    height: 1.7
+    height: 2
     smooth: 10
     smoothDamp: 2
     xMouseSensitivity: 1
