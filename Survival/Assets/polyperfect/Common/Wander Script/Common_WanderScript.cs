@@ -542,8 +542,7 @@ namespace Polyperfect.Common
                     }
                     break;
             }
-
-            if (navMeshAgent)
+            if (navMeshAgent && CurrentState!=WanderState.Dead)
             {
                 navMeshAgent.destination = targetPosition;
                 navMeshAgent.speed = moveSpeed;
@@ -592,6 +591,7 @@ namespace Polyperfect.Common
         {
             if (CurrentState == WanderState.Dead)
             {
+                return;
                 Debug.LogError("Trying to update the AI of a dead animal, something probably went wrong somewhere.");
                 return;
             }

@@ -6,7 +6,6 @@ public class Navigator : MonoBehaviour
 {
     public List<GameObject> bunkersList;
     public int currentBunkerIndex;
-    public GameObject arrow;
     public GameObject player;
 
     private void Awake()
@@ -16,9 +15,9 @@ public class Navigator : MonoBehaviour
 
     void Update()
     {
-        Vector3 direction = (player.transform.position- bunkersList[currentBunkerIndex].transform
-            .position).normalized;
-        arrow.transform.LookAt(direction,Vector3.up);
+        var targetPos = bunkersList[currentBunkerIndex].transform.position;
+        targetPos.y = transform.position.y;
+        transform.LookAt(targetPos);
     }
 
 }

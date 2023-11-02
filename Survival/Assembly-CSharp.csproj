@@ -71,6 +71,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Ragdoll\vRagdollCollision.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame\Scripts\vShooterTrainingController.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon\vShooterWeapon.cs" />
+     <Compile Include="Assets\ReviveSytem.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Interactables\vPendulum.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon\vLaserSight.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorSetTrigger.cs" />
@@ -377,6 +378,7 @@
      <Compile Include="Assets\Emerald AI\Scripts\Components\VisibilityCheckDelay.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Triggers\vFindSpawnPoint.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\CharacterController\vMeleeCombatInput.cs" />
+     <Compile Include="Assets\Navigator.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon\vAmmoDisplay.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vRotateToTarget.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Scripts\vAudioSurfaceControl.cs" />
@@ -388,8 +390,9 @@
      <Compile Include="Assets\Emerald AI\Scripts\Components\EmeraldAINeedsSystem.cs" />
      <Compile Include="Assets\Emerald AI\Scripts\Character Controller\EmeraldAICharacterController.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vInstantiate.cs" />
-     <Compile Include="Assets\Navigator.cs" />
-     <Compile Include="Assets\ReviveSytem.cs" />
+     <Compile Include="Assets\RewardOnDeath.cs" />
+     <Compile Include="Assets\GameRewards.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vSword\Materials" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Prefabs\Flowers" />
@@ -405,6 +408,7 @@
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\SRP" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Shark" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Vases\Script" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\Environment" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Models\Props" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vKatana\Materials" />
@@ -419,6 +423,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vItemEnumsBuilder\Resources" />
      <Folder Include="Assets\Emerald AI\Sounds\Footsteps" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Audio" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\ShooterStatue" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2\Elf Mage Pack\Mesh\Materials" />
@@ -427,6 +432,7 @@
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2\Elf Mage Pack\Controller" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Audio\Others" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\Emerald AI\Demo Source\Sword\Models" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\DecalManager\BulletEffect\Resources" />
@@ -450,6 +456,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem\Models" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\ObjectDamage" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Models\Characters\Materials" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Materials\Colors\Emission" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Orca" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\vRifle\Scripts" />
@@ -483,6 +490,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ImpactEffect" />
      <Folder Include="Assets\Emerald AI\Textures_Materials\Textures\Terrain\Terrain Grasses" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Animator" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterCreator\Script" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Animator\AvatarMasks" />
@@ -504,6 +512,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\VirtualShield\Material" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\BitGem\Skeleton_Swordsman\Models" />
+     <Folder Include="Assets\direction-arrow" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Shooter (Require Shooter Template)\Prefabs" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\LockOn\Prefabs" />
      <None Include="Assets\Polytope Studio\Lowpoly_Characters\Sources\Modular_NPC\Shaders\PT_Modular_NPC_Shader_Toon.shader" />
@@ -537,6 +546,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Vases\Sounds" />
      <None Include="Assets\Invector-3rdPersonController\Shooter\Changelog_Shooter.txt" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\Emerald AI\Sounds\NPCs\Skeleton" />
      <Folder Include="Assets\Emerald AI\Scripts\Shaders" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem\Models\Bow\Materials" />
@@ -553,6 +563,7 @@
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Buffolo" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\SimpleIK" />
      <Folder Include="Assets\Emerald AI\Demo Source\Textures_Materials\Textures\Examples" />
      <Folder Include="Assets\Emerald AI\Demo Source\NavMesh\Setting Up" />
@@ -562,14 +573,17 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\VirtualShield" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires\Shaders" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\OldAssets" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vShield\vShield.fbm" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\vWeaponsNew" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\vRifle\Prefabs" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Furniture" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Characters\Invector@V-Bot 2.0\FBX" />
      <Folder Include="Assets\Emerald AI\Prefabs\Particle Effects" />
      <Folder Include="Assets\Emerald AI\Sounds\Spells" />
+     <Folder Include="Assets\RewardsPrefabs" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\SurfacesTextures" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Resources\Shared\Environment\Models" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Models\Characters" />
@@ -620,6 +634,7 @@
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Meshes\Trees" />
      <None Include="Assets\Invector-3rdPersonController\Basic Locomotion\Resources\vTriplanar.shader" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Navmesh" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Resources" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Animator Controllers\DEMO" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\SimpleDoor" />
@@ -638,6 +653,7 @@
      <None Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Mouse Spear\Mesh\readMe.txt" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Melee (Require MeleeCombat Template)\Scenes" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons" />
+     <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Prefabs\Other" />
      <Folder Include="Assets\Emerald AI\UI\UI Elements" />
      <Folder Include="Assets\Emerald AI\Demo Source\Textures_Materials\Textures\Examples\Materials" />
@@ -716,6 +732,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Textures" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\SurfacesTextures\Brick\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem\Scripts" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\SurfacesTextures\Brick" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props\cardboard\Textures\_Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Melee (Require MeleeCombat Template)\Prefabs\Other" />
@@ -729,11 +746,14 @@
      <Folder Include="Assets\Emerald AI\Scripts\UI" />
      <None Include="Assets\Emerald AI\Scripts\Shaders\Emerald AI Outline Shader.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Particles\DamageEffect\prefabs\Resources" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame\Prefabs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Audio\Mixers" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Resources\Materials" />
      <None Include="Assets\Emerald AI\Demo Source\AI Models\BitGem\Skeleton_Swordsman\Animations\skeleton_swordsman_animation_list.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Animator" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Particles" />
@@ -751,8 +771,10 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\BodySnapSystem\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\DemoScenes" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\JellyFish" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Particles" />
      <Folder Include="Assets\Emerald AI\Textures_Materials\Textures" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <Folder Include="Assets\Lowpoly Style\Shared FBX Meshes\Plants" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Dog-GreatDane" />
@@ -766,6 +788,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Textures" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Bear" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Boar" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Resources\Shared\Environment\Prefabs" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Spider" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Props" />
@@ -789,6 +812,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vKatana\Textures" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Prefabs" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Simple Melee AI\Prefabs\Enemies" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Materials\Animals" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vAxe" />
      <Folder Include="Assets\Lowpoly Style\Shared FBX Meshes\Items and Decoration" />
@@ -796,6 +820,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props\cardboard\Textures\cardboard" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Demon" />
      <Folder Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile" />
+     <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Wolf" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Characters\Invector@V-Bot 2.0\Material" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion" />
@@ -811,12 +836,14 @@
      <Folder Include="Assets\Emerald AI\Textures_Materials\Textures\Example Ability Icons" />
      <Folder Include="Assets\Emerald AI\Sounds\Weapons\Hits" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\CullingFadeControl" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels" />
      <Folder Include="Assets\Emerald AI\Demo Source\NavMesh" />
      <Folder Include="Assets\Emerald AI\Demo Source\Extra\Hand Painted Bushes\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ThrowSystem" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\Weapon\_weapons_WITH_Inventory\_ammo" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\HeadTrack\Scripts" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Resources\Shared\Environment\Textures" />
      <Folder Include="Assets\Lowpoly Style\Shared FBX Meshes\Terrain" />
      <Folder Include="Assets\Emerald AI\Resources\Animations" />
@@ -847,6 +874,7 @@
      <None Include="Assets\Invector-3rdPersonController\Shooter\Scripts\DecalManager\Particle.shader" />
      <Folder Include="Assets\Lowpoly Style\Arctic Tundra\DemoScene" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Tucan" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Prefabs" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vSword\SwordV.fbm" />
      <Folder Include="Assets\Emerald AI\Demo Source\Extra\Hand Painted Forest\Textures" />
@@ -855,6 +883,7 @@
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\BitGem\Skeleton_Swordsman\Animations" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Prefabs\UI" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Animals\Gorilla" />
+     <Folder Include="Assets\direction-arrow\source" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Prefabs" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Textures\basicTextures\Materials" />
@@ -887,6 +916,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Icons\Materials" />
      <Folder Include="Assets\Emerald AI\Prefabs" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\WaypointSystem" />
+     <Folder Include="Assets\direction-arrow\source\Materials" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Animations" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires\Materials\Buildings" />
      <Folder Include="Assets\Camping Model\Free Asset Pack Survival - Camping\Blends" />
@@ -918,6 +948,7 @@
      <Folder Include="Assets\Emerald AI\Textures_Materials\Textures\Examples\Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires\Textures" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Materials\Colors" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon\Resources" />
      <Folder Include="Assets\Emerald AI\Demo Source\Animations\Player" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Demon\Mesh" />
@@ -970,6 +1001,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Prefabs\Weapon\_weapons_WITHOUT_Inventory" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Props\bullets\materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires\Textures\Buildings" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vKatana\FBX" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\Sources\Modular_NPC\Meshes\Peasants_Citizens\Separate_Parts" />
      <Folder Include="Assets\Emerald AI\Demo Source\Terrain" />
@@ -981,6 +1013,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\DecalManager\BulletEffect\Resources\prefabs" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Rock" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes\Terrains" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\DemoScenes\Invector_MeleeCombat" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Meshes" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\DecalManager" />
@@ -994,6 +1027,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\HealthItem" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Texture\MadMooseMike" />
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2\Elf Mage Pack\Prefab" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\Emerald AI\Sounds\Weapons\Swings" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\ObjectDamage\Material" />
      <Folder Include="Assets\NewMap" />
@@ -1005,6 +1039,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterCreator\Icon" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Characters\Invector@V-Bot\Textures" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Materials" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\Emerald AI\Textures_Materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\DecalManager\BulletEffect\Resources\materials" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others" />
@@ -1020,6 +1055,7 @@
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Actions" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\vRifle" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Resources\Shared\Environment\Materials" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\AudioSurfaces" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters" />
      <Folder Include="Assets\Emerald AI\Textures_Materials\Materials" />
@@ -1030,6 +1066,7 @@
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII" />
      <Folder Include="Assets\Invector-3rdPersonController\ItemManager\Textures\New UI" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Characters\Invector@V-Bot 2.0\Textures\Custom" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\3DModels" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Vases\Prefab" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Particles\DamageEffect" />
@@ -1039,6 +1076,7 @@
      <Folder Include="Assets\Emerald AI\Demo Source\AI Models\MikeMoose\Art\Texture\Tools" />
      <Folder Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ArcherySystem" />
      <Folder Include="Assets\polyperfect\Low Poly Animated Animals\- Prefabs\Nature" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <Folder Include="Assets\Emerald AI\Demo Source\Textures_Materials\Textures" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\Switch" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterCreator\CameraStates" />
@@ -1297,10 +1335,10 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -1675,73 +1713,73 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>D:\Unity Projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
