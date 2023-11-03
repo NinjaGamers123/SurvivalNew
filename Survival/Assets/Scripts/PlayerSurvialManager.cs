@@ -1,8 +1,7 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Invector.vCharacterController;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerSurvialManager : MonoBehaviour
@@ -13,9 +12,12 @@ public class PlayerSurvialManager : MonoBehaviour
     [SerializeField] private List<CapsuleCollider> weaponColliders = new List<CapsuleCollider>();
     public bool sleepingBagAcquired;
     [SerializeField] private Slider energySlider;
+    public GameObject myPlayer;
+    public GameObject restartPanel;
 
     private void Awake()
     {
+      //  myPlayer=GameObject.FindGameObjectWithTag("Player");
         Instance = this;
     }
 
@@ -23,7 +25,6 @@ public class PlayerSurvialManager : MonoBehaviour
     {
         InvokeRepeating("EnergyValueChange",5f,5f);
     }
-
     private void EnergyValueChange()
     {
         if (sleepingBagAcquired)
@@ -34,6 +35,8 @@ public class PlayerSurvialManager : MonoBehaviour
         {
             energySlider.value -= 6;
         }
+
+        PlayerDied();
     }
 
     private void Update()
@@ -81,5 +84,19 @@ public class PlayerSurvialManager : MonoBehaviour
     public void OnWeaponAcquired(CapsuleCollider weapon)
     {
         weaponColliders.Remove(weapon);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    private void PlayerDied()
+    {
+        if (energySlider.value <= 0)
+        {
+            myPlayer.SetActive(false);
+            restartPanel.SetActive(true);
+        }
     }
 }
