@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7922309738490239894}
   - component: {fileID: 6511757761361679411}
   - component: {fileID: 9059727765884625145}
+  - component: {fileID: 290984415883116203}
+  - component: {fileID: 9093869850877058900}
   m_Layer: 0
   m_Name: Meat
   m_TagString: Untagged
@@ -83,3 +85,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &290984415883116203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402336789431861548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59db6f4e2c284943bc9355d12113aae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootIncreaseAmount: 25
+--- !u!135 &9093869850877058900
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402336789431861548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.030020652
+  m_Center: {x: 0.0034853197, y: -0.0006096473, z: 0.000020645673}

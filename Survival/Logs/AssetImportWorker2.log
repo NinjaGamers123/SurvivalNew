@@ -1,0 +1,2136 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.29f1 (204d6dc9ae1c) revision 2116973'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/projects/SurvivalNew/Survival
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51397
+Successfully changed project path to: C:/projects/SurvivalNew/Survival
+C:/projects/SurvivalNew/Survival
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17472] Host "[IP] 192.168.1.15 [Port] 0 [Flags] 2 [Guid] 144165990 [EditorId] 144165990 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MU04T8A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17472] Host "[IP] 192.168.1.15 [Port] 0 [Flags] 2 [Guid] 144165990 [EditorId] 144165990 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MU04T8A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 87.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/projects/SurvivalNew/Survival/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.21029.1006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005480 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 198 ms
+Refreshing native plugins compatible for Editor in 76.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Domain Reload Profiling:
+	ReloadAssembly (710ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (73ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (278ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004146 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Domain Reload Profiling:
+	ReloadAssembly (934ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.3 MB). Loaded Objects now: 4185.
+Memory consumption went from 168.2 MB to 166.9 MB.
+Total: 2.556500 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.098000 ms MarkObjects: 2.014000 ms  DeleteObjects: 0.255600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3806.792967 seconds.
+  path: Assets/PolygonSnow/Textures/PolygonSnow_Tread_Texture_01.png
+  artifactKey: Guid(ddf7b1316d8681e4a86ecd8ae4e44149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Textures/PolygonSnow_Tread_Texture_01.png using Guid(ddf7b1316d8681e4a86ecd8ae4e44149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6e13647709b8434d25b6bc4c420091') in 0.079235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.050884 seconds.
+  path: Assets/PolygonSnow
+  artifactKey: Guid(57cf2a4121b3bcc47bc8e9aa2c37bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow using Guid(57cf2a4121b3bcc47bc8e9aa2c37bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7535c03bac4073c0b7ef981a9b2237e9') in 0.005326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.979154 seconds.
+  path: Assets/PolygonSnow/Models/Characters.fbx
+  artifactKey: Guid(f2f6b282a7f0ccb458af716461441b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/Characters.fbx using Guid(f2f6b282a7f0ccb458af716461441b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f45aab45f9cf430580f5244e5e8d99') in 0.106895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.570556 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_Balaclava_01.fbx
+  artifactKey: Guid(26b141e053d3cc44084fd168e7ea21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_Balaclava_01.fbx using Guid(26b141e053d3cc44084fd168e7ea21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4daf113b29de229e18ffb4ffe6589523') in 0.017146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.653157 seconds.
+  path: Assets/PolygonSnow/Models/Materials
+  artifactKey: Guid(3f8c1d7004e27bc4ca0e40d29d56837c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/Materials using Guid(3f8c1d7004e27bc4ca0e40d29d56837c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d9ed1720128797d3e98b6b8ab4de9a') in 0.005593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.136395 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_Beanie_01.fbx
+  artifactKey: Guid(c111128365b3c4748a07ea13acae8aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_Beanie_01.fbx using Guid(c111128365b3c4748a07ea13acae8aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e284b1a88762fafa7e18524d4843eed3') in 0.016044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.363477 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_Beanie_02.fbx
+  artifactKey: Guid(fed2165a1ca38cb4b9aca47dff90ab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_Beanie_02.fbx using Guid(fed2165a1ca38cb4b9aca47dff90ab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b4b76859b33b2b2e17fd500380b79a') in 0.010912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.410979 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_Beanie_03.fbx
+  artifactKey: Guid(ada230507bc907547bbda83782230c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_Beanie_03.fbx using Guid(ada230507bc907547bbda83782230c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6932908ce72011d496c5472032eb0eda') in 0.010818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.456975 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_DefaultHairFemale_01.fbx
+  artifactKey: Guid(b07383b6913201e4d8b46fd862b1857a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_DefaultHairFemale_01.fbx using Guid(b07383b6913201e4d8b46fd862b1857a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc37c1363ed9498d1f12a7c1cdd7780') in 0.011391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.480009 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_DefaultHairMale_01.fbx
+  artifactKey: Guid(14d55dd2685086849b3d6789552a1566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_DefaultHairMale_01.fbx using Guid(14d55dd2685086849b3d6789552a1566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d74d2c2b1829c465b870e1af4f82fbf') in 0.010764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.132214 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_FaceMask_Female_01.fbx
+  artifactKey: Guid(339f85970b66c31408079c5a69df93d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_FaceMask_Female_01.fbx using Guid(339f85970b66c31408079c5a69df93d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9411f79ca352bff92bbdc58df926ed45') in 0.012150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.497177 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_FaceMask_Male_01.fbx
+  artifactKey: Guid(68ce5e3b631b5fb4dab123066063bd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_FaceMask_Male_01.fbx using Guid(68ce5e3b631b5fb4dab123066063bd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94b0f3bb99ee279fca4f95a229386b2') in 0.012084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.414757 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_Goggles_01.fbx
+  artifactKey: Guid(fe45540f1d5e43b42944955f1d98da9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_Goggles_01.fbx using Guid(fe45540f1d5e43b42944955f1d98da9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6524350a0199a0da6e4b53d624bee1') in 0.011176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447747 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_Helmet_01.fbx
+  artifactKey: Guid(7e36b8baf093509408dcc12e670f3d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_Helmet_01.fbx using Guid(7e36b8baf093509408dcc12e670f3d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f86c0ec0d82f5fbf422bffb98eeb0e') in 0.011081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.528860 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_Helmet_02.fbx
+  artifactKey: Guid(8a7ee6bfbf33a9842ac856320c7419bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_Helmet_02.fbx using Guid(8a7ee6bfbf33a9842ac856320c7419bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac80f92bc2ff3fc5e213c6bbe59dcc4d') in 0.010377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.752130 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_Helmet_03.fbx
+  artifactKey: Guid(5dccf056db7cdf8459f62763433a0ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_Helmet_03.fbx using Guid(5dccf056db7cdf8459f62763433a0ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891ef811a27ca6bcbffc3a3add469309') in 0.011003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.053943 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_Helmet_Bike_01.fbx
+  artifactKey: Guid(47cc7538f006d544d9ad0aaee0c1a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_Helmet_Bike_01.fbx using Guid(47cc7538f006d544d9ad0aaee0c1a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908bf91720b0bcb6191580506ef44cfa') in 0.010699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.588609 seconds.
+  path: Assets/PolygonSnow/Models/SM_Attachment_Helmet_Bike_02.fbx
+  artifactKey: Guid(a38745991ade62e4caca9ec16dd80f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Attachment_Helmet_Bike_02.fbx using Guid(a38745991ade62e4caca9ec16dd80f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd73b35965fa3c4cf1be39430506d62') in 0.011941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.364966 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Binding_Board_01.fbx
+  artifactKey: Guid(4b611ce93baae22409e8b7fcc4becb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Binding_Board_01.fbx using Guid(4b611ce93baae22409e8b7fcc4becb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89c22c364e137a2f6f4f0d600f86db2') in 0.011685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.583600 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Binding_Ski_01.fbx
+  artifactKey: Guid(264729a20f7445e4abf3c6ba8e3eee56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Binding_Ski_01.fbx using Guid(264729a20f7445e4abf3c6ba8e3eee56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14d97d9cce79a1774a37affad0e5783') in 0.010253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.570715 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Bottle_01.fbx
+  artifactKey: Guid(d971de3ef27440044b114e8fbc52570b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Bottle_01.fbx using Guid(d971de3ef27440044b114e8fbc52570b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e951c08d3de3d41b6bf46131f0e5e6') in 0.010467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.614760 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Camera_01.fbx
+  artifactKey: Guid(920a7b13638eb45408cd89ed8f1921a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Camera_01.fbx using Guid(920a7b13638eb45408cd89ed8f1921a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dc092de4b2142a46b27e9a2f00587f') in 0.010941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.460286 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Camera_02.fbx
+  artifactKey: Guid(a164284425280e54d9d63bf1eec03599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Camera_02.fbx using Guid(a164284425280e54d9d63bf1eec03599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5e33674db32a5de40f660a283da9de') in 0.010228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.381747 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Fence_01.fbx
+  artifactKey: Guid(7d732d6f83166c446b5c8b9a09db93b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Fence_01.fbx using Guid(7d732d6f83166c446b5c8b9a09db93b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561f27ae687c1de78bd3523d6ba83173') in 0.014820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.516682 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Fence_02.fbx
+  artifactKey: Guid(b7b862c52f405364e82e635d25a8de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Fence_02.fbx using Guid(b7b862c52f405364e82e635d25a8de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420f19a9f5050266fd8d3483f39f0b96') in 0.011022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.342485 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Fence_03.fbx
+  artifactKey: Guid(cefd16cbdd309e34d83cc4820088fa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Fence_03.fbx using Guid(cefd16cbdd309e34d83cc4820088fa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b8646506680a8e740bd140b44ebe8a') in 0.012459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.422343 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Flag_01.fbx
+  artifactKey: Guid(1bd6b70a93f7447488dfd4d5153221be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Flag_01.fbx using Guid(1bd6b70a93f7447488dfd4d5153221be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cca8e82549a07da31e253d77121dba') in 0.011622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.533760 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Flag_02.fbx
+  artifactKey: Guid(0b72cf4ef85353540b1ed38a8431e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Flag_02.fbx using Guid(0b72cf4ef85353540b1ed38a8431e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bffd4b3c8b804e03d72d477064a6751') in 0.011172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.374804 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Flag_03.fbx
+  artifactKey: Guid(ba910c3d06714a8429141070fa6246df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Flag_03.fbx using Guid(ba910c3d06714a8429141070fa6246df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc925d0ac901eeb6f3e5e95be765fac') in 0.010213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.376701 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Flag_04.fbx
+  artifactKey: Guid(ad50fdb6d00a6d7419aeb58e64a844c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Flag_04.fbx using Guid(ad50fdb6d00a6d7419aeb58e64a844c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fd2c62b99914cebdfb86e4d2ce1712') in 0.011378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.435381 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Flag_05.fbx
+  artifactKey: Guid(569c65376161a0f4c800858825fd995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Flag_05.fbx using Guid(569c65376161a0f4c800858825fd995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e8ee8008cd2bc91d8cdcb75485d7b2') in 0.010894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.166048 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Lift_Cable_01.fbx
+  artifactKey: Guid(38004e69e7e01c440afc4f71686fbfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Lift_Cable_01.fbx using Guid(38004e69e7e01c440afc4f71686fbfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484f502094bec8a277f7b29cfdc9b6dc') in 0.010615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.474662 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Lift_Chair_01.fbx
+  artifactKey: Guid(f9d62c9828bf81f488344c7abd6d51f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Lift_Chair_01.fbx using Guid(f9d62c9828bf81f488344c7abd6d51f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f394828087b5037f8d7bc8552b43494') in 0.011181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144528 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Lift_Pillar_01.fbx
+  artifactKey: Guid(f60c8ac21c5def94a83219a766e408ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Lift_Pillar_01.fbx using Guid(f60c8ac21c5def94a83219a766e408ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb10b7205f1841c4340627963b1d06e') in 0.010975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.499441 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Lift_Turn_01.fbx
+  artifactKey: Guid(50f92aefb8cad994e8064b335d57104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Lift_Turn_01.fbx using Guid(50f92aefb8cad994e8064b335d57104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd2d6ca74459e3b052a9269539f6ebb') in 0.014523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141580 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Rail_01.fbx
+  artifactKey: Guid(11eae6a3cb71a864dbf8e27e9da9df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Rail_01.fbx using Guid(11eae6a3cb71a864dbf8e27e9da9df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b633f5951e86f21207064a8fa24d12c5') in 0.011233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.392653 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Rail_02.fbx
+  artifactKey: Guid(f6d806a3e29064e42aca3f372ed4c212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Rail_02.fbx using Guid(f6d806a3e29064e42aca3f372ed4c212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e593e96f12657c284e38c4eea54ec1c4') in 0.011460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.157217 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ramp_01.fbx
+  artifactKey: Guid(ff81af1a34130184686e7ce6249159a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ramp_01.fbx using Guid(ff81af1a34130184686e7ce6249159a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc4cbd4c7996e028dac569699fbd530') in 0.011300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.402711 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ramp_02.fbx
+  artifactKey: Guid(3beee9dc4ab380c459cd37f4ec6f6c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ramp_02.fbx using Guid(3beee9dc4ab380c459cd37f4ec6f6c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d831401b787e69e351152b78419b9f') in 0.010898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174093 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ramp_03.fbx
+  artifactKey: Guid(d8f95af3172ab1144b7d93f1b9372569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ramp_03.fbx using Guid(d8f95af3172ab1144b7d93f1b9372569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29badc2f625558f9f3cbf82b20ecefa4') in 0.010972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.503054 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ramp_04.fbx
+  artifactKey: Guid(affba6ddbdfebbd4ca6e85682de33e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ramp_04.fbx using Guid(affba6ddbdfebbd4ca6e85682de33e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e2194f3315455c095640f3611ecafd') in 0.011240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.360955 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_L_01.fbx
+  artifactKey: Guid(096dcc99ae85be64b87f6d870b28a009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_L_01.fbx using Guid(096dcc99ae85be64b87f6d870b28a009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab469dcbfd806abe48c68364e1a59c98') in 0.010671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261602 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_L_02.fbx
+  artifactKey: Guid(8ebf47fc0d1fe434083061f99856fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_L_02.fbx using Guid(8ebf47fc0d1fe434083061f99856fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3dea2c7527852ccf1cbb4d6c1d1183') in 0.010575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.299720 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_L_03.fbx
+  artifactKey: Guid(76367b7e2c3893e48b72703f88c12615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_L_03.fbx using Guid(76367b7e2c3893e48b72703f88c12615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc7ebfcf44048c67b9889394ad82bc1') in 0.010362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.200883 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_L_04.fbx
+  artifactKey: Guid(bd2131af5b50ce748a96838a4d0d6e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_L_04.fbx using Guid(bd2131af5b50ce748a96838a4d0d6e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636c159caf8ee5b4a8d015fe8786cdc3') in 0.010291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164994 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_L_05.fbx
+  artifactKey: Guid(7f5931984fb9b194b90185b5c46e274e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_L_05.fbx using Guid(7f5931984fb9b194b90185b5c46e274e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53fe70b535553b310958bab994d2ed3') in 0.010512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.151192 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_L_06.fbx
+  artifactKey: Guid(3617ccaefe989994abe7b052967850d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_L_06.fbx using Guid(3617ccaefe989994abe7b052967850d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71af818d552f7cefd92151ae66928b44') in 0.012807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.497870 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_L_07.fbx
+  artifactKey: Guid(6dab73ea6a03e3847a7ac918fc63aa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_L_07.fbx using Guid(6dab73ea6a03e3847a7ac918fc63aa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe82e63d609089b4f3bf96281105cda4') in 0.010745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022169 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_L_08.fbx
+  artifactKey: Guid(e76b8f2b2594f5d48800371aac21492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_L_08.fbx using Guid(e76b8f2b2594f5d48800371aac21492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e35e92df120eb34ed64c12579d59078') in 0.010594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.376682 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_R_01.fbx
+  artifactKey: Guid(0931becc1f709574abc732096f03e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_R_01.fbx using Guid(0931becc1f709574abc732096f03e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106e89c4cfee964bddf4255ee4a1447b') in 0.010754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.165723 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_R_02.fbx
+  artifactKey: Guid(338db886b6a609d43b6a31e065791ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_R_02.fbx using Guid(338db886b6a609d43b6a31e065791ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c33c0cc43a15a1080a8143b6ce62e1d') in 0.012001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.175917 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_R_03.fbx
+  artifactKey: Guid(4663284d78cd70646b9bf2fa0c4f361d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_R_03.fbx using Guid(4663284d78cd70646b9bf2fa0c4f361d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe4d1243c6cdf66506bb758aee22f66') in 0.010906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.319914 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_R_04.fbx
+  artifactKey: Guid(3ce4849a41f26494d9cbc5bd98df3cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_R_04.fbx using Guid(3ce4849a41f26494d9cbc5bd98df3cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ac135b78bdc0e1c1e915b4a3b3fddd') in 0.010564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.166586 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_R_05.fbx
+  artifactKey: Guid(e263cb9533718d44db83c29d67d259d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_R_05.fbx using Guid(e263cb9533718d44db83c29d67d259d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba70b3b52331c5c326fd18cd7abed62') in 0.010945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.491348 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_R_06.fbx
+  artifactKey: Guid(cf7e398632c46e447ad997bab7e013e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_R_06.fbx using Guid(cf7e398632c46e447ad997bab7e013e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b0fd2b46b09db6fae7036bd48cbc8a') in 0.011522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048399 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_R_07.fbx
+  artifactKey: Guid(74e4ceae1f44d1b4b84a2fbfc6acdfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_R_07.fbx using Guid(74e4ceae1f44d1b4b84a2fbfc6acdfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278664ccdd44c57521771ffd42ab8358') in 0.010778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005918 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Ski_R_08.fbx
+  artifactKey: Guid(67f5db131a548e142b5bc760a5b79b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Ski_R_08.fbx using Guid(67f5db131a548e142b5bc760a5b79b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be46aef0eed4ab853febdccdc46346f5') in 0.010350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009896 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_SkiPole_01.fbx
+  artifactKey: Guid(70aad0454ec57cb4d98b39ea4f831b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_SkiPole_01.fbx using Guid(70aad0454ec57cb4d98b39ea4f831b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e77b33cba890a42fd3d74cd25c9f22') in 0.010887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016694 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Sled_01.fbx
+  artifactKey: Guid(0567554b07bbe364ba7fd3c85093ea9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Sled_01.fbx using Guid(0567554b07bbe364ba7fd3c85093ea9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f16f17559bfbd37db1b5a473f306e2') in 0.010870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020739 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Sled_02.fbx
+  artifactKey: Guid(cae89d66426d6974ca1a299406e881f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Sled_02.fbx using Guid(cae89d66426d6974ca1a299406e881f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193a8380ba9b705d0d5248661d265a8f') in 0.010465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015868 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Snowboard_01.fbx
+  artifactKey: Guid(092f64d3384a63640a4eefde464aee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Snowboard_01.fbx using Guid(092f64d3384a63640a4eefde464aee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29065909e753f029a8c3120bd9dbf64') in 0.010658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025310 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Snowboard_02.fbx
+  artifactKey: Guid(90913168820a6db4d9d11e9c08badfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Snowboard_02.fbx using Guid(90913168820a6db4d9d11e9c08badfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a326ae673eea389e546d824f7e89e31') in 0.010663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016871 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Snowboard_03.fbx
+  artifactKey: Guid(550dd2f89d2dbd5429c57727bec75adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Snowboard_03.fbx using Guid(550dd2f89d2dbd5429c57727bec75adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bafa1f7e32c16766574d63f7fb7508d') in 0.010618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008626 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Snowboard_04.fbx
+  artifactKey: Guid(63c72a2f2a802ba41bfe677c162764b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Snowboard_04.fbx using Guid(63c72a2f2a802ba41bfe677c162764b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9872055a4eaa2a36389a7ad35b639a6') in 0.011194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025273 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Snowboard_05.fbx
+  artifactKey: Guid(5492b214c72de9b499a8865ea0424b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Snowboard_05.fbx using Guid(5492b214c72de9b499a8865ea0424b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3225fb198399fbdf1ad58479536ed874') in 0.010880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005867 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Snowboard_06.fbx
+  artifactKey: Guid(6aa0a5718ae2ed446bc82cd4b700062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Snowboard_06.fbx using Guid(6aa0a5718ae2ed446bc82cd4b700062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a4baa8d0a8fb900b288f32339e9299') in 0.010664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022939 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Snowboard_07.fbx
+  artifactKey: Guid(a19948335fc77ed42bc1b9d617967765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Snowboard_07.fbx using Guid(a19948335fc77ed42bc1b9d617967765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115c82028543d253842855fd3d49d957') in 0.010826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024605 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Snowboard_08.fbx
+  artifactKey: Guid(3ec4f3b80cdb430429433cca4847391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Snowboard_08.fbx using Guid(3ec4f3b80cdb430429433cca4847391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fd52d35867c9128f7d35901b1e7024') in 0.011341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008095 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_SnowMaker_01.fbx
+  artifactKey: Guid(fc2f9b9904208f24facad5e282053fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_SnowMaker_01.fbx using Guid(fc2f9b9904208f24facad5e282053fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d8e89f05575b763532d44a8e3fef7f') in 0.011060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.907171 seconds.
+  path: Assets/PolygonSnow/Models/SM_Prop_Snowman.fbx
+  artifactKey: Guid(7978717da17a56a4da2c2180112088e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Prop_Snowman.fbx using Guid(7978717da17a56a4da2c2180112088e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e910a3dec9b185f3a747e326f58d9be6') in 0.010954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.155986 seconds.
+  path: Assets/PolygonSnow/Models/SM_Veh_Snowmobile_01.fbx
+  artifactKey: Guid(e6dd498bcef50fb448be9bebeac73b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Models/SM_Veh_Snowmobile_01.fbx using Guid(e6dd498bcef50fb448be9bebeac73b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bdb80ba483986bef7d731f7ecc21d1') in 0.040873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.507918 seconds.
+  path: Assets/PolygonSnow/Prefabs
+  artifactKey: Guid(f83064cb5bdd2b54b9db5ac01459b821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs using Guid(f83064cb5bdd2b54b9db5ac01459b821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7a1c5d962800c2f1f3bfa2e8af3af0') in 0.007875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.366330 seconds.
+  path: Assets/PolygonSnow/Scenes
+  artifactKey: Guid(2d52ef395187f4b4b9be3f1793b6b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Scenes using Guid(2d52ef395187f4b4b9be3f1793b6b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7c164a53dd13a19a22f01f6a33664f') in 0.005032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.308224 seconds.
+  path: Assets/PolygonSnow/Textures
+  artifactKey: Guid(e1a828ed28aa6c149beac404cff35c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Textures using Guid(e1a828ed28aa6c149beac404cff35c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5929edbfb33c5595eee32d1ef3476f') in 0.005260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.745268 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/Character_Skier_01.prefab
+  artifactKey: Guid(9400661db07780846afa175851086a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/Character_Skier_01.prefab using Guid(9400661db07780846afa175851086a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e8d87c80f277c06827499ed7fac9fb') in 0.014377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.289897 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters
+  artifactKey: Guid(34900ede8f438a94798d7e4b4a17011a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters using Guid(34900ede8f438a94798d7e4b4a17011a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0653b077ec0f46e7ae183896441a802f') in 0.001571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.451585 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/FixedScaleCharacters
+  artifactKey: Guid(084f525705bbc4346b754570cd2bb5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/FixedScaleCharacters using Guid(084f525705bbc4346b754570cd2bb5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31029a46387cc822454ee8dbea96d9b9') in 0.005295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.056851 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/Character_Snowboarder_01.prefab
+  artifactKey: Guid(40290f336ccbb6644ac5ebf86b4522fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/Character_Snowboarder_01.prefab using Guid(40290f336ccbb6644ac5ebf86b4522fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a16029915ea5a58eb8403436b87374') in 0.013163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.396598 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Balaclava_01.prefab
+  artifactKey: Guid(e87e9e77e46e66f45ae4605e70c9c843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Balaclava_01.prefab using Guid(e87e9e77e46e66f45ae4605e70c9c843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44955ae8e91f5eb975b7df0d1a902d81') in 0.013302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.959598 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Beanie_01.prefab
+  artifactKey: Guid(d17294fe91450084c820719f85ca871f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Beanie_01.prefab using Guid(d17294fe91450084c820719f85ca871f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a005f24a4cee7a6728e09d41e0d49ece') in 0.011469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.441896 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Beanie_02.prefab
+  artifactKey: Guid(547540976e6943b43a9242fded47d44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Beanie_02.prefab using Guid(547540976e6943b43a9242fded47d44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1986336c627eafbd2d26968c46b59897') in 0.014286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.406502 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Beanie_03.prefab
+  artifactKey: Guid(f9e10f2f751667c4e8df2e5f74e5eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Beanie_03.prefab using Guid(f9e10f2f751667c4e8df2e5f74e5eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e759cb5b85f3de53ead2db56ee5a99') in 0.013566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.355272 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_DefaultHairFemale_01.prefab
+  artifactKey: Guid(58dd559dff95cd6409d0747aaa1f1755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_DefaultHairFemale_01.prefab using Guid(58dd559dff95cd6409d0747aaa1f1755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da490b5c52689e3a75e49dfcb727cdec') in 0.013557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314047 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_DefaultHairMale_01.prefab
+  artifactKey: Guid(4ac3447f81d778c4194ff8600a185c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_DefaultHairMale_01.prefab using Guid(4ac3447f81d778c4194ff8600a185c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7df07ef5e67a22f25e4fad8d32d5ff6') in 0.013404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.331797 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_FaceMask_Female_01.prefab
+  artifactKey: Guid(6ce2aabc13c38a748a58decc2ab8c5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_FaceMask_Female_01.prefab using Guid(6ce2aabc13c38a748a58decc2ab8c5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb25418f4bb1a12b477bc3d6577f976') in 0.009968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.190429 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_FaceMask_Male_01.prefab
+  artifactKey: Guid(0feb14c0578349d49906fe1a96b02802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_FaceMask_Male_01.prefab using Guid(0feb14c0578349d49906fe1a96b02802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8325ddf6c7e3ade4a8f6ae6f3e98fc1') in 0.013917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.278591 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Goggles_01.prefab
+  artifactKey: Guid(08703c269a3a99948ab2225a911588ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Goggles_01.prefab using Guid(08703c269a3a99948ab2225a911588ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd1f5f5c7222f20d910c6bd26d9a64c') in 0.013898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.168954 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Helmet_01.prefab
+  artifactKey: Guid(7f37db7dc13bfa6468e127fef674d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Helmet_01.prefab using Guid(7f37db7dc13bfa6468e127fef674d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118929fd447a352849b0079680c07020') in 0.014031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.320043 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Helmet_02.prefab
+  artifactKey: Guid(a160c8037cc2e3c428129be6dc298920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Helmet_02.prefab using Guid(a160c8037cc2e3c428129be6dc298920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b269df56cb320a6c5a9ff7834fcca66a') in 0.012831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.341978 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Helmet_03.prefab
+  artifactKey: Guid(f4e5994810a043649a85454476f2f420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Helmet_03.prefab using Guid(f4e5994810a043649a85454476f2f420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0dd3b3e087b7d391c7262f1f65a1c9') in 0.013733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.217858 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Helmet_Bike_01.prefab
+  artifactKey: Guid(7d18952b1a513d34f9adb076d0a6b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Helmet_Bike_01.prefab using Guid(7d18952b1a513d34f9adb076d0a6b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d2e1a71d4597b189b367b0c8e7beb0') in 0.010629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.340554 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Helmet_Bike_02.prefab
+  artifactKey: Guid(caea5a4c33c67664684da820916abb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/SM_Attachment_Helmet_Bike_02.prefab using Guid(caea5a4c33c67664684da820916abb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95afced582d55606af912a3abc7f0bb8') in 0.014562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.284212 seconds.
+  path: Assets/PolygonSnow/Prefabs/FX
+  artifactKey: Guid(4bde751221d3381449fbfe5ca2cd33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/FX using Guid(4bde751221d3381449fbfe5ca2cd33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fee78ff5ab97078534fa54db996eae5') in 0.005641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.503026 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props
+  artifactKey: Guid(c719687af27070c45a8edcc5c8d4c8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props using Guid(c719687af27070c45a8edcc5c8d4c8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bcc7d3e2dcc435aa5b61d9ee3e688d') in 0.005252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.214825 seconds.
+  path: Assets/PolygonSnow/Prefabs/Vehicle
+  artifactKey: Guid(f2d4234584556ce47a18499c5faa39b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Vehicle using Guid(f2d4234584556ce47a18499c5faa39b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edc24281eac84bd6ffc0d1b6c81f1e2') in 0.005260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.574274 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Binding_Board_01.prefab
+  artifactKey: Guid(dd1d75f640aa98548abb3f0826306821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Binding_Board_01.prefab using Guid(dd1d75f640aa98548abb3f0826306821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51525881706346f9c27db359ab463e91') in 0.010793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.494530 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Binding_Ski_01.prefab
+  artifactKey: Guid(b58e5527f8a2fc3468b7883e5ae9bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Binding_Ski_01.prefab using Guid(b58e5527f8a2fc3468b7883e5ae9bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8f7a4a5abf5a128d463e381e2653d7') in 0.010051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.190877 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Bottle_01.prefab
+  artifactKey: Guid(1aed3925a5e0d9845911798da70fe9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Bottle_01.prefab using Guid(1aed3925a5e0d9845911798da70fe9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705c09ff858154e06113e44054036221') in 0.014170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261543 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Camera_01.prefab
+  artifactKey: Guid(13bf5ab2bfa5b9e47855efe4ada267a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Camera_01.prefab using Guid(13bf5ab2bfa5b9e47855efe4ada267a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4950c83e49340f25b1cc49c3ddb249') in 0.010154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.300663 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Camera_02.prefab
+  artifactKey: Guid(5662b6f3c5f07a9488850a159b8fc42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Camera_02.prefab using Guid(5662b6f3c5f07a9488850a159b8fc42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a67e00a18103a0cc7e04fb8fcf58fe') in 0.013657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.218903 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Fence_01.prefab
+  artifactKey: Guid(a2e9cc9f849bb8e48836556aaec8d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Fence_01.prefab using Guid(a2e9cc9f849bb8e48836556aaec8d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505c738aeb6f4abe3ef929fcfec1131b') in 0.076083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.329714 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Fence_02.prefab
+  artifactKey: Guid(7ccc6bfd860115442b7715c92146231b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Fence_02.prefab using Guid(7ccc6bfd860115442b7715c92146231b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf6ee002b69fd084aa76a4a98d18130') in 0.014153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.198445 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Fence_03.prefab
+  artifactKey: Guid(48ea1be105d26954da6b2376dce7f890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Fence_03.prefab using Guid(48ea1be105d26954da6b2376dce7f890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60c74564b7d70a5205a1d507ee8269c') in 0.010205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.203353 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Flag_01.prefab
+  artifactKey: Guid(6cc035ea1d0c10a4dbef36936ce3edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Flag_01.prefab using Guid(6cc035ea1d0c10a4dbef36936ce3edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feb5610cc040dafa22fe0c913fb7c70') in 0.010927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201407 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Flag_02.prefab
+  artifactKey: Guid(d5cf8d34340c45b44b11410306a765c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Flag_02.prefab using Guid(d5cf8d34340c45b44b11410306a765c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c975da636ef9de951567f56899ba149') in 0.014158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188312 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Flag_03.prefab
+  artifactKey: Guid(cfcb33ff164ed704ab6e0204c75fadb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Flag_03.prefab using Guid(cfcb33ff164ed704ab6e0204c75fadb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97ed3e59fb5c887bc58d8944262f6cf') in 0.013804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.495173 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Flag_04.prefab
+  artifactKey: Guid(6471550ae8366fa488476b91748fd42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Flag_04.prefab using Guid(6471550ae8366fa488476b91748fd42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c6bf9b4963f4763dbf6d39b9a45096') in 0.013400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051112 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Flag_05.prefab
+  artifactKey: Guid(41ddea64f638aae46b2c6ba8603038cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Flag_05.prefab using Guid(41ddea64f638aae46b2c6ba8603038cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ce8dbdc6993ea517ced35b8b59aa17') in 0.012157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005376 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Lift_Cable_01.prefab
+  artifactKey: Guid(98d515cd8a2ddec43a1c14d795351f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Lift_Cable_01.prefab using Guid(98d515cd8a2ddec43a1c14d795351f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e62947de55958159824b19522f7a8be') in 0.010408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008129 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Lift_Chair_01.prefab
+  artifactKey: Guid(4e4c6a5fcd6d7f141b2efe5e6fdcd6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Lift_Chair_01.prefab using Guid(4e4c6a5fcd6d7f141b2efe5e6fdcd6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b698ac588cf7302ecb71edbf26efd7') in 0.009882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009075 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Lift_Pillar_01.prefab
+  artifactKey: Guid(ae255f9d2afb33a4abe1a08cafe505f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Lift_Pillar_01.prefab using Guid(ae255f9d2afb33a4abe1a08cafe505f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edfba73011f4c59f1ddff1b039cf66d') in 0.010208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009765 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Lift_Turn_01.prefab
+  artifactKey: Guid(aba4a5f9155abe742b4ee285a651f9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Lift_Turn_01.prefab using Guid(aba4a5f9155abe742b4ee285a651f9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d7b7000fbb39ffc3776aee5d087048') in 0.010497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.328330 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Rail_01.prefab
+  artifactKey: Guid(dcb9b10f109194a48b1f1d3d3ea56017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Rail_01.prefab using Guid(dcb9b10f109194a48b1f1d3d3ea56017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7b1d8a296299036aa35cb67bdbe2c7') in 0.010285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.492233 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Rail_02.prefab
+  artifactKey: Guid(5062462bded9fcf459890b3ef38ec8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Rail_02.prefab using Guid(5062462bded9fcf459890b3ef38ec8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e52a8594ccb2906c0f60cddb76fd25') in 0.012164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017111 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ramp_01.prefab
+  artifactKey: Guid(1e3c0996666fb0245882c5dc3b1dba48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ramp_01.prefab using Guid(1e3c0996666fb0245882c5dc3b1dba48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499c0ea10669e5dcdc944078e39a43ef') in 0.032282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006719 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ramp_02.prefab
+  artifactKey: Guid(2519664c96b5d514cb93ce3291cc0455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ramp_02.prefab using Guid(2519664c96b5d514cb93ce3291cc0455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b7671c099e53bc1e9f0f8990aa8ab1') in 0.009599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009390 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ramp_03.prefab
+  artifactKey: Guid(08ae6b2b230d5cb48a10a2cf447ef195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ramp_03.prefab using Guid(08ae6b2b230d5cb48a10a2cf447ef195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367264aaba0cb2a6f723ea9438248fd2') in 0.010191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022309 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ramp_04.prefab
+  artifactKey: Guid(59d007730b9d6a442b400c96b651ff7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ramp_04.prefab using Guid(59d007730b9d6a442b400c96b651ff7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545256c4831a6e2e37946c6ebbe251f8') in 0.010355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304901 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_01.prefab
+  artifactKey: Guid(d0ce9e9cf9d594e4a9276f55f86dcb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_01.prefab using Guid(d0ce9e9cf9d594e4a9276f55f86dcb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a826748348495fe783302b7047a754b3') in 0.010654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.170656 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_02.prefab
+  artifactKey: Guid(9aa239d7de51b244aa3988411c549ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_02.prefab using Guid(9aa239d7de51b244aa3988411c549ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5015e4939cd35bb47ceeefb0a4d6dcaa') in 0.010362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.285984 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_03.prefab
+  artifactKey: Guid(629c4dfacfdcf224b9661f3f0bfb4af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_03.prefab using Guid(629c4dfacfdcf224b9661f3f0bfb4af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bb964d7c66ce051abc20dc2c8b78e2') in 0.013826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.179138 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_04.prefab
+  artifactKey: Guid(849d084c60ea702429699622175736e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_04.prefab using Guid(849d084c60ea702429699622175736e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8141b93e7b9d57969243333dcd6a69') in 0.014743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.252025 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_05.prefab
+  artifactKey: Guid(8427bce225385fb4d9b52b202edd6339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_05.prefab using Guid(8427bce225385fb4d9b52b202edd6339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde5c9fea48c2fb3954cd94d3d68ab40') in 0.009768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.172854 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_06.prefab
+  artifactKey: Guid(f813b817e3944ff47853f53a763b4745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_06.prefab using Guid(f813b817e3944ff47853f53a763b4745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73324234d4c39365825748682861ce51') in 0.013441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.147896 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_07.prefab
+  artifactKey: Guid(874a806b056110b429f1fada732dc8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_07.prefab using Guid(874a806b056110b429f1fada732dc8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190506f9ed8e1090114bf9bb9ab2d6e9') in 0.010307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.145809 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_08.prefab
+  artifactKey: Guid(553d8af3bae096041ab3f2769ea9ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_L_08.prefab using Guid(553d8af3bae096041ab3f2769ea9ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4437dda56c8db9493317d21a9ee553c8') in 0.013515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.496327 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_01.prefab
+  artifactKey: Guid(eaea39d5e9f6b4a419fedc2c25ff9a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_01.prefab using Guid(eaea39d5e9f6b4a419fedc2c25ff9a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00878441ec60e878ff54b12d6f65925a') in 0.010356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022384 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_02.prefab
+  artifactKey: Guid(194ca9b0db3fec14091ef1ec74c195c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_02.prefab using Guid(194ca9b0db3fec14091ef1ec74c195c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bbd82667929fe5a8c54f183367a09c') in 0.029351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006358 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_03.prefab
+  artifactKey: Guid(cd024958c03e66f48bad231a345096d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_03.prefab using Guid(cd024958c03e66f48bad231a345096d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8653c109faa17f1e6af47750588094') in 0.010044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008775 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_04.prefab
+  artifactKey: Guid(2a52d2f59c2c4364da249102a7892fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_04.prefab using Guid(2a52d2f59c2c4364da249102a7892fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a2587903ff72e6941cbbe45f09e104') in 0.010231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026956 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_05.prefab
+  artifactKey: Guid(6f7a4a837178b3c4691988b5c5f39ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_05.prefab using Guid(6f7a4a837178b3c4691988b5c5f39ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f455311536fcaafde4d4cc343b8eaf39') in 0.010860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.294113 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_06.prefab
+  artifactKey: Guid(eb4406f28916aa142b95af784dcf8258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_06.prefab using Guid(eb4406f28916aa142b95af784dcf8258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc8be737db6769a25fceb19a63452cc') in 0.010440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.494040 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_07.prefab
+  artifactKey: Guid(648737b50b1086642b2f1581ba9ffd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_07.prefab using Guid(648737b50b1086642b2f1581ba9ffd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137793864767769032a355f937298018') in 0.010812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022218 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_08.prefab
+  artifactKey: Guid(6d40478997810a146bedc81ac44eb440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Ski_R_08.prefab using Guid(6d40478997810a146bedc81ac44eb440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650acf71b6d4b97e1b83da21c9795019') in 0.028457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007515 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_SkiPole_01.prefab
+  artifactKey: Guid(899530c66dc602b41b5d4191227021fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_SkiPole_01.prefab using Guid(899530c66dc602b41b5d4191227021fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40d39d7d26ab6c122e7d7090cc3e400') in 0.010067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009013 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Sled_01.prefab
+  artifactKey: Guid(42b5868b87d1955429b45b2e812783b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Sled_01.prefab using Guid(42b5868b87d1955429b45b2e812783b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ef920673adf3591100f1b446a33e20') in 0.010025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022433 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Sled_02.prefab
+  artifactKey: Guid(f49f056dbe83f514bad9543f0840c957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Sled_02.prefab using Guid(f49f056dbe83f514bad9543f0840c957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41e5d77c015d1332770ee9a117ea61f') in 0.010455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.196445 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_01.prefab
+  artifactKey: Guid(4205c8ab84ff6574681583940bdbfa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_01.prefab using Guid(4205c8ab84ff6574681583940bdbfa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64ff80a5ce5b09c0e807012a2a0ac2b') in 0.010781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.487759 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_02.prefab
+  artifactKey: Guid(37872c645b5939f4a87df8f711d76b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_02.prefab using Guid(37872c645b5939f4a87df8f711d76b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33863703df892fe548d6d53fa333bf24') in 0.009927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022674 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_03.prefab
+  artifactKey: Guid(cb919f765bbe68047a2e8b12b24641c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_03.prefab using Guid(cb919f765bbe68047a2e8b12b24641c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb40391aa612f9d1cb7baf60f0b27e2d') in 0.029283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022186 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_04.prefab
+  artifactKey: Guid(4ba411cf6e69d764fb032e47bc554b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_04.prefab using Guid(4ba411cf6e69d764fb032e47bc554b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6da55a3044751825691c7b36e77500a') in 0.010204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014169 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_05.prefab
+  artifactKey: Guid(ff8491d701e14fa4d8988b32c6c7b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_05.prefab using Guid(ff8491d701e14fa4d8988b32c6c7b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e79baa5e93276c7387023968085db22') in 0.009748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009663 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_06.prefab
+  artifactKey: Guid(fd47b5cf95c273b4ba2ee6b99e4163ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_06.prefab using Guid(fd47b5cf95c273b4ba2ee6b99e4163ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f76b12b5297eb31f28c721ac3b2549e') in 0.009609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022632 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_07.prefab
+  artifactKey: Guid(8093b7a83844c7b4ea02bdc7b4a6ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_07.prefab using Guid(8093b7a83844c7b4ea02bdc7b4a6ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9641d277bf4b0092a2c167f527d221c') in 0.010559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.299233 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_08.prefab
+  artifactKey: Guid(08b48468cd646be45b98cc0abf3f03e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowboard_08.prefab using Guid(08b48468cd646be45b98cc0abf3f03e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93330358cbab725cd888f4603973be0') in 0.009826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.498371 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_SnowMaker_01.prefab
+  artifactKey: Guid(4e2deb66267d7ed41830f54018f0ab33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_SnowMaker_01.prefab using Guid(4e2deb66267d7ed41830f54018f0ab33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c90cf490ab2d340a5a22104fb31997') in 0.010257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023307 seconds.
+  path: Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowman.prefab
+  artifactKey: Guid(0668d203f194b564884aa05a64283ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Props/SM_Prop_Snowman.prefab using Guid(0668d203f194b564884aa05a64283ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36061b925974d8883a8e3c24dd488384') in 0.028735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.012837 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/FixedScaleCharacters/Character_Skier_01.prefab
+  artifactKey: Guid(792eed1310b443346aa45075d8bc55e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/FixedScaleCharacters/Character_Skier_01.prefab using Guid(792eed1310b443346aa45075d8bc55e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf9135eee35a7b29a2fac2bcd99c9a5') in 0.011947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.247478 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/FixedScaleCharacters/Character_Skier_02.prefab
+  artifactKey: Guid(26626d58048d9b54fbee5c299a5636c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/FixedScaleCharacters/Character_Skier_02.prefab using Guid(26626d58048d9b54fbee5c299a5636c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e2ac8dd0ece2d598eda679701f2f47') in 0.014083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.533312 seconds.
+  path: Assets/PolygonSnow/Prefabs/Characters/Character_Snowboarder_01.prefab
+  artifactKey: Guid(40290f336ccbb6644ac5ebf86b4522fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/Characters/Character_Snowboarder_01.prefab using Guid(40290f336ccbb6644ac5ebf86b4522fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d854ebc7853488afcafd38e7e3b58e') in 0.010776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.565920 seconds.
+  path: Assets/PolygonSnow/Prefabs/FX/FX_Snow.prefab
+  artifactKey: Guid(597f1781b66807244b6ec15b6a2ab969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Prefabs/FX/FX_Snow.prefab using Guid(597f1781b66807244b6ec15b6a2ab969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7748e11915478847b361b8557b63f2') in 0.010962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028933 seconds.
+  path: Assets/PolygonSnow/Materials/Misc/FX_Snow.mat
+  artifactKey: Guid(9cd4461e04471f743b10b02307b68b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSnow/Materials/Misc/FX_Snow.mat using Guid(9cd4461e04471f743b10b02307b68b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaa6f6ef88ca3c763acd27b4d64a831') in 0.018499 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003710 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Domain Reload Profiling:
+	ReloadAssembly (859ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4236.
+Memory consumption went from 178.6 MB to 177.3 MB.
+Total: 2.743300 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.088600 ms MarkObjects: 2.202000 ms  DeleteObjects: 0.206700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003605 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (818ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4239.
+Memory consumption went from 178.6 MB to 177.3 MB.
+Total: 2.455700 ms (FindLiveObjects: 0.215600 ms CreateObjectMapping: 0.102700 ms MarkObjects: 1.938700 ms  DeleteObjects: 0.197900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 478.344383 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Scripts/Shooter/vShooterMeleeInput.cs
+  artifactKey: Guid(46ebb0c68fc51da4b94e466ea07cd110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Scripts/Shooter/vShooterMeleeInput.cs using Guid(46ebb0c68fc51da4b94e466ea07cd110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cad49f65d5859c13ed82895041cb29') in 0.011847 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003620 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.827 seconds
+Domain Reload Profiling:
+	ReloadAssembly (827ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4242.
+Memory consumption went from 178.6 MB to 177.3 MB.
+Total: 2.313700 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.098000 ms MarkObjects: 1.839200 ms  DeleteObjects: 0.189600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (881ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (696ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4245.
+Memory consumption went from 178.6 MB to 177.4 MB.
+Total: 2.436200 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.095200 ms MarkObjects: 1.892600 ms  DeleteObjects: 0.203700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004174 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Domain Reload Profiling:
+	ReloadAssembly (864ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (687ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (370ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4248.
+Memory consumption went from 178.6 MB to 177.4 MB.
+Total: 2.576800 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.077000 ms MarkObjects: 2.008000 ms  DeleteObjects: 0.230900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003656 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Domain Reload Profiling:
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (660ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4251.
+Memory consumption went from 178.6 MB to 177.3 MB.
+Total: 2.353100 ms (FindLiveObjects: 0.219500 ms CreateObjectMapping: 0.089700 ms MarkObjects: 1.845800 ms  DeleteObjects: 0.197300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004188 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Domain Reload Profiling:
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (709ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4254.
+Memory consumption went from 178.6 MB to 177.3 MB.
+Total: 2.293800 ms (FindLiveObjects: 0.236700 ms CreateObjectMapping: 0.088100 ms MarkObjects: 1.772600 ms  DeleteObjects: 0.195700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004457 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Domain Reload Profiling:
+	ReloadAssembly (892ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (708ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4257.
+Memory consumption went from 178.6 MB to 177.3 MB.
+Total: 2.314900 ms (FindLiveObjects: 0.204000 ms CreateObjectMapping: 0.087600 ms MarkObjects: 1.837900 ms  DeleteObjects: 0.184900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003589 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Domain Reload Profiling:
+	ReloadAssembly (839ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4260.
+Memory consumption went from 178.6 MB to 177.3 MB.
+Total: 2.353300 ms (FindLiveObjects: 0.239500 ms CreateObjectMapping: 0.087800 ms MarkObjects: 1.831100 ms  DeleteObjects: 0.194200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1373.983283 seconds.
+  path: Assets/Model/LifeJacket.fbx
+  artifactKey: Guid(8e66db9a29ab586438fa6f70fd6ab478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/LifeJacket.fbx using Guid(8e66db9a29ab586438fa6f70fd6ab478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24b233e8db2ca303e8a44943abbfa2a') in 0.077713 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003595 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (638ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4263.
+Memory consumption went from 178.6 MB to 177.4 MB.
+Total: 2.365600 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.085500 ms MarkObjects: 1.814700 ms  DeleteObjects: 0.231800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004453 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Domain Reload Profiling:
+	ReloadAssembly (839ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (658ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (350ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4266.
+Memory consumption went from 178.6 MB to 177.4 MB.
+Total: 2.604300 ms (FindLiveObjects: 0.235100 ms CreateObjectMapping: 0.078300 ms MarkObjects: 2.091900 ms  DeleteObjects: 0.198300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004416 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Domain Reload Profiling:
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (664ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4269.
+Memory consumption went from 178.6 MB to 177.4 MB.
+Total: 2.719900 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.193900 ms  DeleteObjects: 0.218600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004371 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (843ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (659ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4272.
+Memory consumption went from 178.6 MB to 177.4 MB.
+Total: 2.461500 ms (FindLiveObjects: 0.224900 ms CreateObjectMapping: 0.083000 ms MarkObjects: 1.880700 ms  DeleteObjects: 0.272100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006194 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.824 seconds
+Domain Reload Profiling:
+	ReloadAssembly (825ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4275.
+Memory consumption went from 178.6 MB to 177.4 MB.
+Total: 2.335000 ms (FindLiveObjects: 0.223500 ms CreateObjectMapping: 0.078900 ms MarkObjects: 1.840600 ms  DeleteObjects: 0.191400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004449 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Domain Reload Profiling:
+	ReloadAssembly (852ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (661ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4278.
+Memory consumption went from 178.6 MB to 177.4 MB.
+Total: 2.877800 ms (FindLiveObjects: 0.356200 ms CreateObjectMapping: 0.089500 ms MarkObjects: 2.219400 ms  DeleteObjects: 0.211900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003571 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Domain Reload Profiling:
+	ReloadAssembly (874ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (694ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4281.
+Memory consumption went from 178.6 MB to 177.4 MB.
+Total: 2.432300 ms (FindLiveObjects: 0.214000 ms CreateObjectMapping: 0.088700 ms MarkObjects: 1.928200 ms  DeleteObjects: 0.200700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003696 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (880ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4284.
+Memory consumption went from 178.7 MB to 177.4 MB.
+Total: 2.384100 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.088400 ms MarkObjects: 1.882200 ms  DeleteObjects: 0.193500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003980 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Domain Reload Profiling:
+	ReloadAssembly (867ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (683ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3644 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.2 MB). Loaded Objects now: 4287.
+Memory consumption went from 178.7 MB to 177.4 MB.
+Total: 2.482100 ms (FindLiveObjects: 0.249900 ms CreateObjectMapping: 0.090500 ms MarkObjects: 1.941100 ms  DeleteObjects: 0.199800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

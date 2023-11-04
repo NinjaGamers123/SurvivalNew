@@ -49,7 +49,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\Examples\vRemoveCurrentItem.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vUpdateUIPosition.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vImageColorChange.cs" />
-     <Compile Include="Assets\GameRewards.cs" />
+     <Compile Include="Assets\Scripts\GameRewards.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Generic\vAimCanvas.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\vClassHeaderAttribute.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorTagBase.cs" />
@@ -72,7 +72,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Ragdoll\vRagdollCollision.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame\Scripts\vShooterTrainingController.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon\vShooterWeapon.cs" />
-     <Compile Include="Assets\ReviveSytem.cs" />
+     <Compile Include="Assets\Scripts\ReviveSytem.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Interactables\vPendulum.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon\vLaserSight.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorSetTrigger.cs" />
@@ -122,8 +122,8 @@
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\Examples\vSaveLoadInventory.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\CullingFadeControl\vCullingFadeControl.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\vEditorToolbarAttribute.cs" />
-     <Compile Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame\Scripts\vScorePointDisplay.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Triggers\vLoadLevel.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Shooter\TargetTrainingMiniGame\Scripts\vScorePointDisplay.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts\MoveCamera.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Health\v_SpriteHealth.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\ShowHideSlideControl.cs" />
@@ -150,7 +150,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vThirdPersonAnimator.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vEnableRandomObject.cs" />
      <Compile Include="Assets\Emerald AI\Scripts\Components\LocationBasedDamageArea.cs" />
-     <Compile Include="Assets\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vEquipment.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\Examples\vCheckItemsInInventory.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vItemListOperations.cs" />
@@ -210,6 +210,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Interactables\vPickupItem.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Health\vDamageModifier.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\3DModels\Weapons\vRifle\Scripts\vBotRifleAnimationControl.cs" />
+     <Compile Include="Assets\FXIFIED\common\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\MeleeWeapon\vMeleeAttackObject.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vRemoveParent.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vSetParentOfController.cs" />
@@ -270,6 +271,7 @@
      <Compile Include="Assets\Emerald AI\Scripts\Components\EmeraldAITimedDespawn.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vItemEnumsBuilder\vInventoryDisplayFormat.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vTeleport.cs" />
+     <Compile Include="Assets\FXIFIED\common\Scripts\Quit.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vDrawHideMeleeWeapons.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\MeleeWeapon\vIMeleeFighter.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Vases\Script\vBreakableObject.cs" />
@@ -280,7 +282,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vEquipAreaControl.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vItemAmountWindow.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\Examples\vContainsItemTrigger.cs" />
-     <Compile Include="Assets\RewardOnDeath.cs" />
+     <Compile Include="Assets\Scripts\RewardOnDeath.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vChangeAnimatorUpdateMode.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vInventory.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Shooter\vDamageReceiver.cs" />
@@ -327,6 +329,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vItemListData.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vEventWithDelay.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Melee Combat\Simple Melee AI\Scripts\vSimpleMeleeAI_Motor.cs" />
+     <Compile Include="Assets\FXIFIED\common\Scripts\PowerUp.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\vThirdPersonCameraState.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon\vBulletLifeSettings.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\vBarDisplayAttribute.cs" />
@@ -381,7 +384,7 @@
      <Compile Include="Assets\Emerald AI\Scripts\Components\VisibilityCheckDelay.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Triggers\vFindSpawnPoint.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\CharacterController\vMeleeCombatInput.cs" />
-     <Compile Include="Assets\Navigator.cs" />
+     <Compile Include="Assets\Scripts\Navigator.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon\vAmmoDisplay.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vRotateToTarget.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Scripts\vAudioSurfaceControl.cs" />
@@ -393,9 +396,7 @@
      <Compile Include="Assets\Emerald AI\Scripts\Components\EmeraldAINeedsSystem.cs" />
      <Compile Include="Assets\Emerald AI\Scripts\Character Controller\EmeraldAICharacterController.cs" />
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vInstantiate.cs" />
-     <Compile Include="Assets\FXIFIED\common\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\FXIFIED\common\Scripts\Quit.cs" />
-     <Compile Include="Assets\FXIFIED\common\Scripts\PowerUp.cs" />
+     <Compile Include="Assets\Scripts\Loot.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\vMeleeWeapons\vSword\Materials" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Environments\Prefabs\Flowers" />
@@ -674,7 +675,7 @@
      <None Include="Assets\Emerald AI\Demo Source\AI Models\RainEntertainment\FantasyMonster2\Elf Mage Pack\readMe.txt" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\Simple Melee AI\Scenes" />
-     <None Include="Assets\InventoryData.json" />
+     <None Include="Assets\Scripts\InventoryData.json" />
      <Folder Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires\Meshes" />
      <Folder Include="Assets\Polytope Studio\Lowpoly_Characters\Sources" />
      <Folder Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator" />
@@ -1366,10 +1367,10 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>D:\SurvivalNew\Survival\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -1744,79 +1745,79 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UI">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Rider.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>D:\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.EditorCoroutines.Editor">
+     <HintPath>C:\projects\SurvivalNew\Survival\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

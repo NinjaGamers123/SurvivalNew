@@ -11,7 +11,7 @@ public class PlayerSurvialManager : MonoBehaviour
     [SerializeField] private GameObject sleepingBag;
     [SerializeField] private List<CapsuleCollider> weaponColliders = new List<CapsuleCollider>();
     public bool sleepingBagAcquired;
-    [SerializeField] private Slider energySlider;
+    public Slider energySlider;
     public GameObject myPlayer;
     public GameObject restartPanel;
 
@@ -81,14 +81,14 @@ public class PlayerSurvialManager : MonoBehaviour
         }
     }
 
+    public void Restart()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void OnWeaponAcquired(CapsuleCollider weapon)
     {
         weaponColliders.Remove(weapon);
-    }
-
-    public void Restart()
-    {
-        SceneManager.LoadScene(1);
     }
 
     private void PlayerDied()
